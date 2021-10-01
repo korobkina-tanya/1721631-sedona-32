@@ -60,39 +60,33 @@
         <section class="search-infrastructure">
           <h2>Инфраструктура:</h2>
           <form class="filter-infrastructure" action="https://echo.htmlacademy.ru" method="post">
-            <input type="checkbox" name="infrastructure" id="infrastructure" checked>
-            <label class="choice-infrastructure" for="subscribe-field">Бассейн</label>
 
-            <br>
+            <label class="label-infrastructure" for="infrastructure-waterpool">Бассейн</label>
+            <input type="checkbox" name="infrastructure-waterpool" id="infrastructure-waterpool" checked>
 
-            <input type="checkbox" name="infrastructure" id="infrastructure" checked>
-            <label class="choice-infrastructure" for="subscribe-field">Парковка</label>
+            <label class="label-infrastructure" for="infrastructure-parking">Парковка</label>
+            <input type="checkbox" name="infrastructure-parking" id="infrastructure-parking" checked>
 
-            <br>
+            <label class="label-infrastructure" for="infrastructure-wi-fi">Wi-Fi</label>
+            <input type="checkbox" name="infrastructure-wi-fi" id="infrastructure-wi-fi">
 
-            <input type="checkbox" name="infrastructure" id="infrastructure">
-            <label class="choice-infrastructure" for="subscribe-field">Wi-Fi</label>
           </form>
         </section>
 
         <section class="search-housing-type">
           <h2>Тип жилья:</h2>
           <form action="https://echo.htmlacademy.ru" method="post">
-            <Label class="choice-housing-type">
-              <input type="radio" name="housing-type" value="Гостиница" checked> Гостиница
-            </Label>
+            <label class="choice-housing-type">
+              Гостиница <input type="radio" name="housing-type" value="Гостиница" checked>
+            </label>
 
-            <br>
+            <label class="choice-housing-type">
+              Мотель <input type="radio" name="housing-type" value="Мотель">
+            </label>
 
-            <Label class="choice-housing-type">
-              <input type="radio" name="housing-type" value="Мотель"> Мотель
-            </Label>
-
-            <br>
-
-            <Label class="choice-housing-type">
-              <input type="radio" name="housing-type" value="Аппартаменты"> Аппартаменты
-            </Label>
+            <label class="choice-housing-type">
+              Аппартаменты <input type="radio" name="housing-type" value="Аппартаменты">
+            </label>
           </form>
         </section>
 
