@@ -29,6 +29,19 @@ body {
   background: #FFFFFF;
 }
 
+/*  Button */
+.btn {
+  font-family: inherit;
+
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
 /*  Pages */
 
 .page-header {
@@ -40,6 +53,46 @@ body {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+  color: inherit;
+  background: inherit;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn-want {
+
+}
+
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("/image/index/background-index.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+
+
+/*  List */
+.advantages-list,
+.information-sedona {
+  text-align: center;
+}
+
+.about-sedona {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: inherit;
+  background: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.advantages-sedona {
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
   color: inherit;
   background: inherit;
   text-decoration: none;
