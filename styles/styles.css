@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url("fonts/ptsans-400.woff2") format("woff2"),
-  url("fonts/ptsans-400.woff") format("woff");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
 
   font-display: swap;
 }
@@ -14,8 +13,7 @@
   font-style: normal;
   font-weight: 700;
 
-  src: url("fonts/ptsans-700.woff2") format("woff2"),
-  url("fonts/ptsans-700.woff2") format("woff");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
 
   font-display: swap;
 }
@@ -32,15 +30,10 @@ body {
 /*  Button */
 .btn {
   font-family: inherit;
-
-  font-size: 16px;
-  line-height: 21px;
   color: #FFFFFF;
-  background: #756257;
   text-decoration: none;
   text-transform: uppercase;
 }
-
 
 /*  Pages */
 
@@ -60,7 +53,11 @@ body {
 }
 
 .btn-want {
-
+  font-size: 16px;
+  line-height: 21px;
+  background: #756257;
+  width: 160px;
+  height: 37px;
 }
 
 .main-index {
@@ -71,11 +68,11 @@ body {
   background-repeat: no-repeat;
 }
 
-
-
 /*  List */
 .advantages-list,
-.information-sedona {
+.information-sedona,
+.travel-dates,
+.mailing-index {
   text-align: center;
 }
 
@@ -97,4 +94,154 @@ body {
   background: inherit;
   text-decoration: none;
   text-transform: none;
+}
+
+.advantages-item-1,
+.advantages-item-2 {
+  color: #FFFFFF;
+  background: #83B3D3;;
+}
+
+.advantages-item-1 .advantages-title,
+.advantages-item-2 .advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.advantages-item-1 .advantages-discription,
+.advantages-item-2 .advantages-discription {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.advantages-item-3,
+.advantages-item-5 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-4 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-3 .advantages-title,
+.advantages-item-4 .advantages-title,
+.advantages-item-5 .advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.advantages-item-3 .advantages-discription,
+.advantages-item-4 .advantages-discription,
+.advantages-item-5 .advantages-discription {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.advantages-item-service-housing,
+.advantages-item-service-souvenirs {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-service-food {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.advantages-title-service {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.advantages-discription-service {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.photo-hotel {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("/image/index/photo-advantages-1.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.interesting {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: inherit;
+  background: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hotel-offers {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: inherit;
+  background: inherit;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn-search {
+  font-size: 20px;
+  line-height: 36px;
+  background: #756257;
+  width: 575px;
+  height: 60px;
+}
+
+.mailing-index {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("/image/index/background-index-newsletter.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscription-index {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.description-mailing-index {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn-subscribe {
+  font-size: 20px;
+  line-height: 26px;
+  background: #83B3D3;
+  width: 200px;
+  height: 60px;
 }
