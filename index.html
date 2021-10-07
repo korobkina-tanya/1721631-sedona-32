@@ -118,8 +118,10 @@
         <img src="#" alt="фон-горы">
         <h2 class="subscription-index">Подпишитесь на рассылку</h2>
         <p class="description-mailing-index">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <input type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
-        <button class="button-subscribe" type="button">Подписаться</button>
+        <form method="POST" action="https://echo.htmlacademy.ru">
+          <input type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
+          <button class="button-subscribe" type="submit">Подписаться</button>
+        </form>
       </section>
     </main>
 

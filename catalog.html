@@ -59,7 +59,7 @@
 
         <section class="search-infrastructure">
           <h2>Инфраструктура:</h2>
-          <form class="filter-infrastructure" action="https://echo.htmlacademy.ru" method="post">
+          <form class="filter-infrastructure" method="POST" action="https://echo.htmlacademy.ru">
 
             <label class="label-infrastructure" for="infrastructure-waterpool">Бассейн</label>
             <input type="checkbox" name="infrastructure-waterpool" id="infrastructure-waterpool" checked>
@@ -75,7 +75,7 @@
 
         <section class="search-housing-type">
           <h2>Тип жилья:</h2>
-          <form action="https://echo.htmlacademy.ru" method="post">
+          <form method="POST" action="https://echo.htmlacademy.ru">
             <label class="choice-housing-type">
               Гостиница <input type="radio" name="housing-type" value="Гостиница" checked>
             </label>
@@ -91,7 +91,7 @@
         </section>
 
         <section class="search-price">
-          <form method="get" action="http://echo.htmlacadamy.ru">
+          <form method="GET" action="http://echo.htmlacadamy.ru">
             <fieldset class="filter-item">
               <legend>Стоимость, &#x20bd;:</legend>
               <div class="range-filter">
@@ -215,10 +215,11 @@
       <section class="mailing-catalog">
         <h2 class="subscription-catalog">Подпишитесь на рассылку</h2>
         <p class="description-mailing-catalog">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <input type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
-        <button class="button-subscribe" type="button">Подписаться</button>
+        <form method="POST" action="https://echo.htmlacademy.ru">
+          <input type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
+          <button class="button-subscribe" type="button">Подписаться</button>
+        </form>
       </section>
-
     </main>
 
     <footer class="page-footer">
