@@ -57,42 +57,37 @@
           </li>
         </ul>
 
-        <section class="search-infrastructure">
-          <h2>Инфраструктура:</h2>
-          <form class="filter-infrastructure" method="POST" action="https://echo.htmlacademy.ru">
+        <section class="search-filters">
+          <form class="search-filters-form" method="POST" action="https://echo.htmlacademy.ru">
 
-            <label class="label-infrastructure" for="infrastructure-waterpool">Бассейн</label>
-            <input type="checkbox" name="infrastructure-waterpool" id="infrastructure-waterpool" checked>
+            <div class="search-filter-type-infrastructure">
+              <h2>Инфраструктура:</h2>
+              <label class="label-infrastructure" for="infrastructure-waterpool">Бассейн</label>
+              <input type="checkbox" name="infrastructure-waterpool" id="infrastructure-waterpool" checked>
 
-            <label class="label-infrastructure" for="infrastructure-parking">Парковка</label>
-            <input type="checkbox" name="infrastructure-parking" id="infrastructure-parking" checked>
+              <label class="label-infrastructure" for="infrastructure-parking">Парковка</label>
+              <input type="checkbox" name="infrastructure-parking" id="infrastructure-parking" checked>
 
-            <label class="label-infrastructure" for="infrastructure-wi-fi">Wi-Fi</label>
-            <input type="checkbox" name="infrastructure-wi-fi" id="infrastructure-wi-fi">
+              <label class="label-infrastructure" for="infrastructure-wi-fi">Wi-Fi</label>
+              <input type="checkbox" name="infrastructure-wi-fi" id="infrastructure-wi-fi">
+            </div>
 
-          </form>
-        </section>
+            <div class="search-filter-type-housing">
+              <h2>Тип жилья:</h2>
+                <label class="choice-housing-type">
+                  Гостиница <input type="radio" name="housing-type" value="Гостиница" checked>
+                </label>
 
-        <section class="search-housing-type">
-          <h2>Тип жилья:</h2>
-          <form method="POST" action="https://echo.htmlacademy.ru">
-            <label class="choice-housing-type">
-              Гостиница <input type="radio" name="housing-type" value="Гостиница" checked>
-            </label>
+                <label class="choice-housing-type">
+                  Мотель <input type="radio" name="housing-type" value="Мотель">
+                </label>
 
-            <label class="choice-housing-type">
-              Мотель <input type="radio" name="housing-type" value="Мотель">
-            </label>
+                <label class="choice-housing-type">
+                  Аппартаменты <input type="radio" name="housing-type" value="Аппартаменты">
+                </label>
+            </div>
 
-            <label class="choice-housing-type">
-              Аппартаменты <input type="radio" name="housing-type" value="Аппартаменты">
-            </label>
-          </form>
-        </section>
-
-        <section class="search-price">
-          <form method="GET" action="http://echo.htmlacadamy.ru">
-            <fieldset class="filter-item">
+            <fieldset class="search-filter-type-price">
               <legend>Стоимость, &#x20bd;:</legend>
               <div class="range-filter">
                 <div class="price-controls">
@@ -114,13 +109,15 @@
 
               </div>
             </fieldset>
+
+            <div class="search-buttons">
+              <button class="button-apply" type="button">Применить</button>
+              <button class="button-reset" type="button">Сбросить</button>
+            </div>
+
           </form>
         </section>
 
-        <section class="selecting-settings">
-          <button class="button-apply" type="button">Применить</button>
-          <button class="button-reset" type="button">Сбросить</button>
-        </section>
       </header>
 
       <section class="searching-results">
