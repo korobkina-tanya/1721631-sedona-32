@@ -13,14 +13,14 @@
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="about.html">О Седоне</a>
+            <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="hotels.html">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
 
-        <a class="main-header-logo">
+        <a class="main-header-logo" href="https://htmlacademy.ru/">
           <img src="../image/header-footer/logo-sedona.svg" width="170" height="70" alt="Логотип сайта городка Седона">
         </a>
 
@@ -38,7 +38,7 @@
           </li>
         </ul>
 
-        <button class="btn btn-want" type="button">хочу сюда!</button>
+        <a class="button-want" href="#">хочу сюда!</a>
 
       </nav>
     </header>
@@ -61,7 +61,7 @@
             <p class="advantages-discription">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </li>
 
-          <img src="../image/index/photo-advantages-1.jpg" width="800" height="384" alt="фото отеля">
+          <li><img src="../image/index/photo-advantages-1.jpg" width="800" height="384" alt="фото отеля"></li>
 
           <li class="advantages-item-service-housing">
             <img src="../image/index/icon-housing.svg" width="75" height="72" alt="жилье">
@@ -81,7 +81,7 @@
             <p class="advantages-discription-service">Не только китайского, но и настоящего местного производства!</p>
           </li>
 
-          <img src="../image/index/photo-advantages-2.jpg" width="800" height="384" alt="фото гор">
+          <li><img src="../image/index/photo-advantages-2.jpg" width="800" height="384" alt="фото гор"></li>
 
           <li class="advantages-item-2">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
@@ -112,14 +112,16 @@
       <section class="travel-dates">
         <h2 class="interesting">Заинтересовались?</h2>
         <p class="hotel-offers">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class=" btn btn-search" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        <button class="button-search" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       </section>
 
       <section class="mailing-index">
         <h2 class="subscription-index">Подпишитесь на рассылку</h2>
         <p class="description-mailing-index">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <input type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
-        <button class="btn btn-subscribe" type="button">Подписаться</button>
+        <form method="POST" action="https://echo.htmlacademy.ru">
+          <input type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
+          <button class="button-subscribe" type="submit">Подписаться</button>
+        </form>
       </section>
     </main>
 
@@ -127,28 +129,30 @@
       <section class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="social-item-twitter">
-              <span class="visually-hidden">Твиттер</span>
+            <a class="footer-social-link" href="https://twitter.com/htmlacademy_ru">
+              <img class="social-link-twitter" src="../image/header-footer/social-twitter.svg" width="18" height="15" alt="Твиттер">
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a class="social-item-fb">
-              <span class="visually-hidden">Фейсбук</span>
+            <a class="social-item-fb" href="https://www.facebook.com/htmlacademy">
+              <img class="social-link-fb" src="../image/header-footer/social-facebook.svg" width="10" height="18" alt="Фейсбук">
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a class="social-item-youtube">
-              <span class="visually-hidden">Ютуб</span>
+            <a class="social-item-youtube" href="https://www.youtube.com/c/HTMLAcademyRUS">
+              <img class="social-link-youtube" src="../image/header-footer/social-youtube.svg" width="20" height="16" alt="Ютуб">
             </a>
           </li>
         </ul>
       </section>
 
-      <address>+7 (812) 812-12-12</address>
+      <a class="phone-number-footer" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
-      <img src="#" alt="логотип компании">
+      <a class="main-header-logo" href="https://htmlacademy.ru/">
+        <img src="../image/header-footer/logo-htmlacademy.svg" width="115" height="34" alt="логотип компании">
+      </a>
 
     </footer>
 

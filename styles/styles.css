@@ -27,14 +27,6 @@ body {
   background: #FFFFFF;
 }
 
-/*  Button */
-.btn {
-  font-family: inherit;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 /*  Pages */
 
 .page-header {
@@ -52,12 +44,16 @@ body {
   text-transform: none;
 }
 
-.btn-want {
+.button-want {
+  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
+  color: #FFFFFF;
   background: #756257;
   width: 160px;
   height: 37px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .main-index {
@@ -206,12 +202,16 @@ body {
   text-transform: none;
 }
 
-.btn-search {
+.button-search {
+  font-family: inherit;
   font-size: 20px;
   line-height: 36px;
+  color: #FFFFFF;
   background: #756257;
   width: 575px;
   height: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .mailing-index {
@@ -238,10 +238,25 @@ body {
   text-transform: none;
 }
 
-.btn-subscribe {
+.button-subscribe {
+  font-family: inherit;
   font-size: 20px;
   line-height: 26px;
+  color: #FFFFFF;
   background: #83B3D3;
   width: 200px;
   height: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*  Footer */
+.phone-number-footer {
+  font-family: inherit;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  background: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
 }
