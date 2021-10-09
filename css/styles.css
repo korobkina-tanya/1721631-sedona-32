@@ -16,7 +16,6 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-
   font-size: 18px;
   line-height: 23px;
   color: #000000;
@@ -64,7 +63,8 @@ body {
 .advantages-list,
 .information-sedona,
 .travel-dates,
-.mailing-index {
+.mailing-index,
+.mailing-catalog {
   text-align: center;
 }
 
@@ -218,7 +218,8 @@ body {
   background-repeat: no-repeat;
 }
 
-.subscription-index {
+.subscription-index,
+.subscription-catalog {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -255,4 +256,91 @@ body {
   background: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/*  catalog */
+
+.inner-header {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("/img/catalog/background-catalog.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-family: inherit;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Breadcrumbs */
+
+.breadcrumbs-link {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.search-filter-type-infrastructure h2,
+.search-filter-type-housing h2,
+.search-filter-type-price legend {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.search-filter-type-infrastructure .label-infrastructure,
+.search-filter-type-housing .choice-housing-type {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.min-price input,
+.max-price input {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background-color: gainsboro;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.button-apply {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #83B3D3;
+  width: 160px;
+  height: 48px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-reset {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0);;
+  width: 160px;
+  height: 23px;
+  text-decoration: none;
+  text-transform: none;
 }
