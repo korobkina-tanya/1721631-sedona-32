@@ -55,7 +55,7 @@ body {
 .main-index {
   color: #000000;
   background-color: #FFFFFF;
-  background-image: url("/image/index/background-index.jpg");
+  background-image: url("/img/index/background-index.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -173,7 +173,7 @@ body {
 .photo-hotel {
   color: #000000;
   background-color: #FFFFFF;
-  background-image: url("/image/index/photo-advantages-1.jpg");
+  background-image: url("/img/index/photo-advantages-1.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -213,7 +213,7 @@ body {
 .mailing-index {
   color: #FFFFFF;
   background-color: #000000;
-  background-image: url("/image/index/background-index-newsletter.jpg");
+  background-image: url("/img/index/background-index-newsletter.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
