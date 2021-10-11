@@ -40,7 +40,6 @@ body {
 }
 
 .button-want {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
@@ -103,7 +102,7 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-item .advantages-title {
+.advantages-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -111,7 +110,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-item .advantages-discription {
+.advantages-discription {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -175,7 +174,6 @@ body {
 }
 
 .button-search {
-  font-family: inherit;
   font-size: 20px;
   line-height: 36px;
   color: #FFFFFF;
@@ -212,7 +210,6 @@ body {
 }
 
 .button-subscribe {
-  font-family: inherit;
   font-size: 20px;
   line-height: 26px;
   color: #FFFFFF;
@@ -225,7 +222,6 @@ body {
 
 /*  Footer */
 .phone-number-footer {
-  font-family: inherit;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
@@ -245,7 +241,6 @@ body {
 }
 
 .inner-header-title {
-  font-family: inherit;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
@@ -256,7 +251,6 @@ body {
 /* Breadcrumbs */
 
 .breadcrumbs-link {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
@@ -267,7 +261,6 @@ body {
 .search-filter-type-infrastructure h2,
 .search-filter-type-housing h2,
 .search-filter-type-price legend {
-  font-family: inherit;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -276,9 +269,8 @@ body {
   text-transform: none;
 }
 
-.search-filter-type-infrastructure .label-infrastructure,
-.search-filter-type-housing .choice-housing-type {
-  font-family: inherit;
+.label-infrastructure,
+.choice-housing-type {
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
@@ -288,7 +280,6 @@ body {
 
 .min-price input,
 .max-price input {
-  font-family: inherit;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
@@ -298,7 +289,6 @@ body {
 }
 
 .button-apply {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -311,7 +301,6 @@ body {
 }
 
 .button-reset {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
@@ -325,7 +314,6 @@ body {
 /* Searching results */
 
 .found-hotels {
-  font-family: inherit;
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
@@ -337,7 +325,6 @@ body {
 .services-selector-item,
 .count-hotels-filter p,
 .number-hotels-item {
-  font-family: inherit;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
@@ -347,7 +334,6 @@ body {
 }
 
 .selected-hotel h2 {
-  font-family: inherit;
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
@@ -357,7 +343,6 @@ body {
 }
 
 .selected-hotel p {
-  font-family: inherit;
   font-size: 18x;
   line-height: 23px;
   font-weight: 400;
@@ -367,7 +352,6 @@ body {
 }
 
 .button-more-details {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -380,7 +364,6 @@ body {
 }
 
 .button-to-favorites {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -393,7 +376,6 @@ body {
 }
 
 .button-in-favorites {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -406,7 +388,6 @@ body {
 }
 
 .selected-hotel span {
-  font-family: inherit;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
@@ -419,7 +400,6 @@ body {
 }
 
 .button-load-more {
-  font-family: inherit;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -432,7 +412,6 @@ body {
 }
 
 .pagination-link {
-  font-family: inherit;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -448,7 +427,6 @@ body {
 }
 
 .pagination-current {
-  font-family: inherit;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -457,7 +435,6 @@ body {
 }
 
 .your-e-mail {
-  font-family: inherit;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
