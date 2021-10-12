@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #000000;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 /*  Pages */
@@ -34,9 +34,7 @@ body {
   line-height: 26px;
   font-weight: 700;
   color: inherit;
-  background-color: inherit;
   text-decoration: none;
-  text-transform: none;
 }
 
 .button-want {
@@ -72,24 +70,19 @@ body {
   line-height: 36px;
   font-weight: 700;
   color: inherit;
-  background-color: inherit;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .advantages-sedona {
   font-size: 22px;
   line-height: 36px;
-  font-weight: 400;
   color: inherit;
-  background-color: inherit;
   text-decoration: none;
-  text-transform: none;
 }
 
 .advantages-item-special-blue {
   color: #FFFFFF;
-  background: #83B3D3;
+  background-color: #83B3D3;
 }
 
 .advantages-item-special-pale-blue {
@@ -105,17 +98,13 @@ body {
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
 .advantages-discription {
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400;
   text-decoration: none;
-  text-transform: none;
 }
 
 .advantages-item-service-housing,
@@ -140,9 +129,7 @@ body {
 .advantages-discription-service {
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400;
   text-decoration: none;
-  text-transform: none;
 }
 
 .photo-hotel {
@@ -158,7 +145,6 @@ body {
   line-height: 36px;
   font-weight: 700;
   color: inherit;
-  background-color: inherit;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -166,11 +152,8 @@ body {
 .hotel-offers {
   font-size: 22px;
   line-height: 26px;
-  font-weight: 400;
   color: inherit;
-  background-color: inherit;
   text-decoration: none;
-  text-transform: none;
 }
 
 .button-search {
@@ -204,9 +187,7 @@ body {
 .description-mailing-index {
   font-size: 22px;
   line-height: 26px;
-  font-weight: 400;
   text-decoration: none;
-  text-transform: none;
 }
 
 .button-subscribe {
@@ -266,7 +247,6 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   text-decoration: none;
-  text-transform: none;
 }
 
 .label-infrastructure,
@@ -275,7 +255,6 @@ body {
   line-height: 23px;
   color: #FFFFFF;
   text-decoration: none;
-  text-transform: none;
 }
 
 .min-price input,
@@ -285,7 +264,6 @@ body {
   color: #FFFFFF;
   background-color: gainsboro;
   text-decoration: none;
-  text-transform: none;
 }
 
 .button-apply {
@@ -308,7 +286,6 @@ body {
   width: 160px;
   height: 23px;
   text-decoration: none;
-  text-transform: none;
 }
 
 /* Searching results */
@@ -327,10 +304,8 @@ body {
 .number-hotels-item {
   font-size: 18px;
   line-height: 23px;
-  font-weight: 400;
   color: #333333;
   text-decoration: none;
-  text-transform: none;
 }
 
 .selected-hotel h2 {
@@ -339,16 +314,13 @@ body {
   font-weight: 700;
   color: #000000;
   text-decoration: none;
-  text-transform: none;
 }
 
 .selected-hotel p {
   font-size: 18x;
   line-height: 23px;
-  font-weight: 400;
   color: #333333;
   text-decoration: none;
-  text-transform: none;
 }
 
 .button-more-details {
@@ -390,7 +362,6 @@ body {
 .selected-hotel span {
   font-size: 16px;
   line-height: 21px;
-  font-weight: 400;
   color: #333333;
   background-color: #F2F2F2;
   width: 160px;
@@ -442,7 +413,6 @@ body {
   width: 600px;
   height: 60px;
   text-decoration: none;
-  text-transform: none;
 }
 
 
