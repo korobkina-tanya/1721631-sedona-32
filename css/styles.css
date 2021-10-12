@@ -40,10 +40,9 @@ body {
 .button-want {
   font-size: 16px;
   line-height: 21px;
+  font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
-  width: 160px;
-  height: 37px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -71,6 +70,7 @@ body {
   font-weight: 700;
   color: inherit;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .advantages-sedona {
@@ -159,6 +159,7 @@ body {
 .button-search {
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
   width: 575px;
@@ -193,6 +194,7 @@ body {
 .button-subscribe {
   font-size: 20px;
   line-height: 26px;
+  font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
   width: 200px;
@@ -226,7 +228,6 @@ body {
   line-height: 78px;
   color: #FFFFFF;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 /* Breadcrumbs */
