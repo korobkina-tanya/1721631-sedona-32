@@ -85,19 +85,26 @@ body {
 }
 
 .main-index {
+  width: 1200px;
   color: #000000;
   background-color: #FFFFFF;
   background-image: url("/img/index/background-index.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 /*  List */
 
+.welcome {
+  padding-top: 51px;
+  padding-left: 371px;
+}
+
 .information-sedona {
   display: flex;
   flex-direction: column;
-  width: 1200px;
+  width: 720px;
   margin: 0 auto;
 }
 
@@ -132,7 +139,6 @@ body {
   margin-bottom: 0;
 }
 
-
 .about-sedona {
   font-size: 30px;
   line-height: 36px;
@@ -140,6 +146,8 @@ body {
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-sedona {
@@ -202,11 +210,19 @@ body {
 }
 
 .photo-hotel {
+  width: 1200px;
   color: #000000;
   background-color: #FFFFFF;
   background-image: url("/img/index/photo-advantages-1.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.travel-dates {
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+  margin: 0 auto;
 }
 
 .interesting {
@@ -216,6 +232,8 @@ body {
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .hotel-offers {
@@ -235,14 +253,17 @@ body {
   height: 60px;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .mailing-index {
+  width: 1200px;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("/img/index/background-index-newsletter.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .subscription-index,
@@ -252,12 +273,17 @@ body {
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 0;
+  width: 720px;
+  margin: 0 auto;
 }
 
 .description-mailing-index {
   font-size: 22px;
   line-height: 26px;
   text-decoration: none;
+  width: 720px;
+  margin: 0 auto;
 }
 
 .button-subscribe {
