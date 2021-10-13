@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
@@ -22,11 +30,32 @@ body {
   background-color: #FFFFFF;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
 /*  Pages */
 
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 530px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 135px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -45,6 +74,8 @@ body {
   background-color: #756257;
   text-decoration: none;
   text-transform: uppercase;
+  width: 160px;
+  height: 37px;
 }
 
 .main-index {
