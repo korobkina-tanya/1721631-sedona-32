@@ -34,6 +34,11 @@ body {
   flex-grow: 1;
 }
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /*  Pages */
 
 .page-header {
@@ -51,6 +56,7 @@ body {
   width: 530px;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .navigation-user {
@@ -87,6 +93,14 @@ body {
 }
 
 /*  List */
+
+.information-sedona {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .advantages-list,
 .information-sedona,
 .travel-dates,
@@ -94,6 +108,30 @@ body {
 .mailing-catalog {
   text-align: center;
 }
+
+.advantages {
+  max-width: 1200px;
+  list-style: none;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantages-item,
+.advantages-item-service-housing,
+.advantages-item-service-food,
+.advantages-item-service-souvenirs {
+  width: 400px;
+  height: 384px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 
 .about-sedona {
   font-size: 30px;
