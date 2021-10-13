@@ -299,6 +299,26 @@ body {
 }
 
 /*  Footer */
+
+.page-footer {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-footer-container {
+display: flex;
+justify-content: space-between;
+width: 1200px;
+margin: 0 auto;
+}
+
+.footer-social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .phone-number-footer {
   font-size: 40px;
   line-height: 40px;
