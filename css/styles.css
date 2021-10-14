@@ -68,16 +68,12 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  color: inherit;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
 .advantages-sedona {
   font-size: 22px;
   line-height: 36px;
-  color: inherit;
-  text-decoration: none;
 }
 
 .advantages-item-special-blue {
@@ -104,7 +100,6 @@ body {
 .advantages-discription {
   font-size: 18px;
   line-height: 21px;
-  text-decoration: none;
 }
 
 .advantages-item-service-housing,
@@ -122,14 +117,12 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
 .advantages-discription-service {
   font-size: 18px;
   line-height: 21px;
-  text-decoration: none;
 }
 
 .photo-hotel {
@@ -144,16 +137,12 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  color: inherit;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
 .hotel-offers {
   font-size: 22px;
   line-height: 26px;
-  color: inherit;
-  text-decoration: none;
 }
 
 .button-search {
@@ -181,14 +170,12 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
 .description-mailing-index {
   font-size: 22px;
   line-height: 26px;
-  text-decoration: none;
 }
 
 .button-subscribe {
@@ -204,13 +191,15 @@ body {
 }
 
 /*  Footer */
+
+.page-footer {
+  background-color: #FFFFFF;
+}
+
 .phone-number-footer {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
-  background-color: #FFFFFF;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 /*  catalog */
@@ -227,7 +216,6 @@ body {
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
-  text-decoration: none;
 }
 
 /* Breadcrumbs */
@@ -247,7 +235,6 @@ body {
   line-height: 26px;
   font-weight: 700;
   color: #FFFFFF;
-  text-decoration: none;
 }
 
 .label-infrastructure,
@@ -255,7 +242,6 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
-  text-decoration: none;
 }
 
 .min-price input,
@@ -296,7 +282,6 @@ body {
   line-height: 38px;
   font-weight: 700;
   color: #000000;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -306,7 +291,6 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #333333;
-  text-decoration: none;
 }
 
 .selected-hotel h2 {
@@ -314,14 +298,12 @@ body {
   line-height: 31px;
   font-weight: 700;
   color: #000000;
-  text-decoration: none;
 }
 
 .selected-hotel p {
   font-size: 18x;
   line-height: 23px;
   color: #333333;
-  text-decoration: none;
 }
 
 .button-more-details {
@@ -367,7 +349,6 @@ body {
   background-color: #F2F2F2;
   width: 160px;
   height: 37px;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
