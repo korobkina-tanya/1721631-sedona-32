@@ -53,10 +53,12 @@ body {
 }
 
 .navigation-list {
+  display: flex;
   width: 530px;
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-left: 71px;
 }
 
 .navigation-user {
@@ -301,7 +303,8 @@ margin: 0 auto;
 }
 
 .footer-social-list {
-  margin: 0;
+  display: flex;
+  margin-left: 72px;
   padding: 0;
   list-style: none;
 }
@@ -326,9 +329,21 @@ margin: 0 auto;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
+  margin-left: 71px;
+  padding: 0;
 }
 
 /* Breadcrumbs */
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 73px;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+
+/* Link */
 
 .breadcrumbs-link {
   font-size: 16px;
@@ -338,9 +353,22 @@ margin: 0 auto;
   text-transform: none;
 }
 
+.home-page {
+  margin-left: 11px;
+}
+
+.breadcrumbs-link-catalog {
+  margin-left: 10px;
+}
+
+.search-filters-form {
+  display: flex;
+}
+
 .search-filter-type-infrastructure h2,
 .search-filter-type-housing h2,
 .search-filter-type-price legend {
+  display: flex;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -349,9 +377,22 @@ margin: 0 auto;
 
 .label-infrastructure,
 .choice-housing-type {
+  display: flex;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
+}
+
+.search-filter-type-infrastructure {
+margin-left: 71px;
+}
+
+.search-filter-type-housing {
+  margin-left: 67px;
+}
+
+.search-filter-type-price {
+  margin-left: 217px;
 }
 
 .min-price input,
@@ -361,6 +402,10 @@ margin: 0 auto;
   color: #FFFFFF;
   background-color: gainsboro;
   text-decoration: none;
+}
+
+.search-buttons {
+  margin-left: 81px;
 }
 
 .button-apply {
@@ -387,12 +432,32 @@ margin: 0 auto;
 
 /* Searching results */
 
+.block-searching-results {
+  display: flex;
+}
+
+.services-selector-list {
+  list-style: none;
+  margin-left: 192px;
+}
+
+.catalog-views {
+  display: flex;
+  list-style: none;
+  margin-left: 81px;
+}
+
+.catalog-views-link {
+  margin-right: 8px;
+}
+
 .found-hotels {
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  margin-left: 71px;
 }
 
 .services-selector-item,
@@ -403,17 +468,44 @@ margin: 0 auto;
   color: #333333;
 }
 
+.filter-search-results {
+  display: block;
+}
+
+.selected-hotel {
+display: flex;
+}
+
+.hotel-description {
+  margin-left: 37px;
+}
+
 .selected-hotel h2 {
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
 .selected-hotel p {
   font-size: 18x;
   line-height: 23px;
   color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.selected-hotel img {
+  margin-left: 72px;
+}
+
+.hotel-rating {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 361px;
 }
 
 .button-more-details {
@@ -470,31 +562,13 @@ margin: 0 auto;
   background-color: #83B3D3;
   width: 625px;
   height: 55px;
+  margin-left: 288px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.pagination-link {
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.pagination-item {
-  background-color: #83B3D3;
-  width: 55px;
-  height: 55px;
-  text-align: center;
-}
-
-.pagination-current {
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #000000;
-  text-decoration: none;
+.hotel-show-controls {
+  display: flex;
 }
 
 .your-e-mail {
@@ -507,4 +581,62 @@ margin: 0 auto;
   text-decoration: none;
 }
 
+/* Pagination */
+.pagination-container {
+  display: flex;
+  padding-left: 72px;
+}
 
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+}
+
+.pagination-item {
+  background-color: #83B3D3;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 7px;
+}
+
+.pagination-current {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #E5E5E5;
+  text-decoration: none;
+}
+
+.count-hotels-filter {
+  display: flex;
+}
+
+.count-hotels-filter p {
+margin-left: 302px;
+}
+
+.number-hotels-list {
+  list-style: none;
+  margin-left: 51px;
+}
