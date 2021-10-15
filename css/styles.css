@@ -430,12 +430,32 @@ margin-left: 71px;
 
 /* Searching results */
 
+.block-searching-results {
+  display: flex;
+}
+
+.services-selector-list {
+  list-style: none;
+  margin-left: 192px;
+}
+
+.catalog-views {
+  display: flex;
+  list-style: none;
+  margin-left: 81px;
+}
+
+.catalog-views-link {
+  margin-right: 8px;
+}
+
 .found-hotels {
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  margin-left: 71px;
 }
 
 .services-selector-item,
@@ -446,17 +466,44 @@ margin-left: 71px;
   color: #333333;
 }
 
+.filter-search-results {
+  display: block;
+}
+
+.selected-hotel {
+display: flex;
+}
+
+.hotel-description {
+  margin-left: 37px;
+}
+
 .selected-hotel h2 {
   font-size: 24px;
   line-height: 31px;
   font-weight: 700;
   color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
 .selected-hotel p {
   font-size: 18x;
   line-height: 23px;
   color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.selected-hotel img {
+  margin-left: 72px;
+}
+
+.hotel-rating {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 361px;
 }
 
 .button-more-details {
@@ -518,27 +565,8 @@ margin-left: 71px;
   text-transform: uppercase;
 }
 
-.pagination-link {
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.pagination-item {
-  background-color: #83B3D3;
-  width: 55px;
-  height: 55px;
-  text-align: center;
-}
-
-.pagination-current {
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #000000;
-  text-decoration: none;
+.hotel-show-controls {
+  display: flex;
 }
 
 .your-e-mail {
@@ -564,12 +592,6 @@ margin-left: 71px;
   list-style-type: none;
 }
 
-/* Item */
-
-.pagination-item:not(:last-child) {
-  margin-right: 7px;
-}
-
 .pagination-link {
   display: block;
   box-sizing: border-box;
@@ -584,11 +606,35 @@ margin-left: 71px;
   text-decoration: none;
 }
 
-.pagination-current {
-  color: #000000;
-  background-color: #E5E5E5;
+.pagination-item {
+  background-color: #83B3D3;
+  width: 55px;
+  height: 55px;
+  text-align: center;
 }
 
+.pagination-item:not(:last-child) {
+  margin-right: 7px;
+}
 
+.pagination-current {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #E5E5E5;
+  text-decoration: none;
+}
 
+.count-hotels-filter {
+  display: flex;
+}
 
+.count-hotels-filter p {
+margin-left: 302px;
+}
+
+.number-hotels-list {
+  list-style: none;
+  margin-left: 51px;
+}
