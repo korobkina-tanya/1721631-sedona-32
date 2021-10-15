@@ -326,9 +326,21 @@ margin: 0 auto;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
+  margin-left: 71px;
+  padding: 0;
 }
 
 /* Breadcrumbs */
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 73px;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+
+/* Link */
 
 .breadcrumbs-link {
   font-size: 16px;
@@ -338,9 +350,23 @@ margin: 0 auto;
   text-transform: none;
 }
 
+.home-page {
+  margin-left: 11px;
+}
+
+.breadcrumbs-link-catalog {
+  margin-left: 10px;
+}
+
+.search-filters-form {
+  display: flex;
+
+}
+
 .search-filter-type-infrastructure h2,
 .search-filter-type-housing h2,
 .search-filter-type-price legend {
+  display: flex;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -349,9 +375,22 @@ margin: 0 auto;
 
 .label-infrastructure,
 .choice-housing-type {
+  display: flex;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
+}
+
+.search-filter-type-infrastructure {
+margin-left: 71px;
+}
+
+.search-filter-type-housing {
+  margin-left: 67px;
+  }
+
+.search-filter-type-price {
+  margin-left: 217px;
 }
 
 .min-price input,
@@ -361,6 +400,10 @@ margin: 0 auto;
   color: #FFFFFF;
   background-color: gainsboro;
   text-decoration: none;
+}
+
+.search-buttons {
+  margin-left: 81px;
 }
 
 .button-apply {
@@ -470,6 +513,7 @@ margin: 0 auto;
   background-color: #83B3D3;
   width: 625px;
   height: 55px;
+  margin-left: 288px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -506,5 +550,45 @@ margin: 0 auto;
   height: 60px;
   text-decoration: none;
 }
+
+/* Pagination */
+.pagination-container {
+  display: flex;
+  padding-left: 72px;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Item */
+
+.pagination-item:not(:last-child) {
+  margin-right: 7px;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #E5E5E5;
+}
+
+
 
 
