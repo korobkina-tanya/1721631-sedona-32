@@ -133,10 +133,7 @@ body {
   list-style-type: none;
 }
 
-.advantages-item,
-.advantages-item-service-housing,
-.advantages-item-service-food,
-.advantages-item-service-souvenirs {
+.advantages-item {
   width: 400px;
   height: 384px;
   margin-right: 0;
@@ -189,7 +186,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-item-service-food {
+.advantages-item-special-white {
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -587,6 +584,7 @@ display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .pagination-link {
@@ -625,7 +623,8 @@ display: flex;
 
 .count-hotels-filter {
   display: flex;
-
+  width: 380px;
+  justify-content: flex-end;
 }
 
 .number-hotels-list {
