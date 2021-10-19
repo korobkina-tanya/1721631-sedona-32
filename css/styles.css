@@ -255,7 +255,6 @@ body {
 
 .interesting {
   width: 720px;
-  height: 50px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -266,7 +265,6 @@ body {
 
 .hotel-offers {
   width: 720px;
-  height: 37px;
   font-size: 22px;
   line-height: 26px;
   padding-top: 15px;
@@ -311,7 +309,6 @@ body {
   padding: 0;
   padding-top: 94px;
   width: 720px;
-  height: 50px;
   margin: 0 auto;
 }
 
@@ -360,6 +357,7 @@ padding-right: 72px;
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -369,6 +367,18 @@ padding-right: 72px;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
+  padding-top: 40px;
+}
+
+.footer-social-link {
+  display: block;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-header-logo {
+  padding-top: 42px;
 }
 
 /*  catalog */
