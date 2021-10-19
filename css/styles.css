@@ -254,17 +254,22 @@ body {
 }
 
 .interesting {
+  width: 720px;
+  height: 50px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
-  padding: 0;
+  padding-top: 91px;
 }
 
 .hotel-offers {
+  width: 720px;
+  height: 37px;
   font-size: 22px;
   line-height: 26px;
+  padding-top: 15px;
 }
 
 .button-search {
@@ -273,11 +278,16 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
-  width: 575px;
-  height: 60px;
   text-decoration: none;
   text-transform: uppercase;
   margin: 0 auto;
+  margin-top: 73px;
+  margin-bottom: 91px;
+  padding-top: 13px;
+  padding-bottom: 17px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border-radius: 10px;
 }
 
 /* mailing-index */
@@ -299,15 +309,25 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   padding: 0;
+  padding-top: 94px;
   width: 720px;
+  height: 50px;
   margin: 0 auto;
 }
 
 .description-mailing-index {
+  width: 720px;
+  height: 72px;
   font-size: 22px;
   line-height: 26px;
   width: 720px;
   margin: 0 auto;
+  padding-top: 15px;
+}
+
+.mailing-index form {
+  padding-top: 26px;
+  padding-bottom: 93px;
 }
 
 .button-subscribe {
