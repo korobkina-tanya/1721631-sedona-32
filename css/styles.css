@@ -140,6 +140,15 @@ body {
   margin-bottom: 0;
 }
 
+.advantages-item-large {
+  width: 800px;
+}
+
+.advantages-item img {
+  display: block;
+  margin: 0 auto;
+ }
+
 .about-sedona {
   font-size: 30px;
   line-height: 36px;
