@@ -112,6 +112,10 @@ body {
   border-radius: 4px;
 }
 
+.main-header-logo {
+  padding-top: 0;
+}
+
 /*  main-container */
 
 .main-index {
@@ -384,10 +388,6 @@ padding-right: 72px;
   padding-right: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.main-header-logo {
-  padding-top: 0;
 }
 
 /*  catalog */
