@@ -53,16 +53,16 @@ body {
 /*  page-header */
 
 .page-header {
+  width: 1200px;
+  min-height: 65px;
   color: #000000;
   background-color: #FFFFFF;
+  margin: 0 auto;
 }
 
 .navigation {
   display: flex;
-  width: 1200px;
-  min-height: 65px;
   justify-content: space-between;
-  margin: 0 auto;
   padding-left: 71px;
   padding-right: 72px;
 }
@@ -85,6 +85,13 @@ body {
   color: inherit;
   text-decoration: none;
   padding-right: 33px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.navigation-user .navigation-link {
+  display: block;
+  padding-right: 21px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -356,23 +363,20 @@ body {
 /*  Footer */
 
 .page-footer {
-  display: flex;
   width: 1200px;
-  height: 120px;
+  min-height: 120px;
   margin: 0 auto;
 }
 
 .page-footer-container {
 display: flex;
 justify-content: space-between;
-width: 1200px;
 padding-left: 72px;
 padding-right: 72px;
 }
 
 .footer-social-list {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
@@ -380,8 +384,6 @@ padding-right: 72px;
 }
 
 .phone-number-footer {
-  display: flex;
-  align-items: center;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
@@ -389,11 +391,6 @@ padding-right: 72px;
 
 .footer-social-link {
   padding-right: 30px;
-}
-
-.main-footer-logo {
-  display: flex;
-  align-items: center;
 }
 
 /*  catalog */
