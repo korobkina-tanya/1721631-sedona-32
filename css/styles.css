@@ -520,6 +520,7 @@ padding-bottom: 30px;
 .searching-results {
   margin-left: 72px;
   margin-right: 72px;
+  margin-bottom: 61px;
 }
 
 .block-searching-results {
@@ -666,7 +667,6 @@ display: flex;
   display: flex;
   padding-left: 72px;
   padding-right: 72px;
-  margin-top: 61px;
   justify-content: space-between;
 }
 
