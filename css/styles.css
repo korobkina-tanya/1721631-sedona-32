@@ -130,47 +130,44 @@ body {
   width: 1200px;
   color: #000000;
   background-color: #FFFFFF;
-  background-image: url("/img/index/background-index.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
   margin: 0 auto;
 }
 
 .advantages-list,
-.information-sedona,
-.travel-dates,
 .mailing-index,
 .mailing-catalog {
   text-align: center;
 }
 
+.welcome-sedona {
+  background-image: url("/img/index/background-index.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .welcome {
-  display: block;
   padding-top: 51px;
   padding-left: 371px;
 }
 
-.information-sedona {
-  display: flex;
-  flex-direction: column;
-  width: 720px;
-  margin: 0 auto;
-}
-
 .about-sedona {
+  width: 720px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
   padding: 0;
   padding-top: 63px;
 }
 
 .advantages-sedona {
+  width: 720px;
   font-size: 22px;
   line-height: 36px;
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
   padding: 0;
   padding-top: 23px;
   padding-bottom: 79px;
@@ -267,20 +264,14 @@ body {
 
 /* travel-dates */
 
-.travel-dates {
-  display: flex;
-  flex-direction: column;
-  width: 720px;
-  margin: 0 auto;
-}
-
 .interesting {
   width: 720px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
   padding-top: 91px;
 }
 
@@ -288,6 +279,8 @@ body {
   width: 720px;
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
+  margin: 0 auto;
   padding-top: 15px;
 }
 
@@ -299,9 +292,9 @@ body {
   background-color: #756257;
   text-decoration: none;
   text-transform: uppercase;
-  margin: 0 auto;
   margin-top: 73px;
   margin-bottom: 91px;
+  margin-left: 312px;
   padding-top: 13px;
   padding-bottom: 17px;
   padding-left: 150px;
@@ -550,7 +543,7 @@ padding-bottom: 30px;
 }
 
 .found-hotels {
-  width: 529px;
+  flex-grow: 1;
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
