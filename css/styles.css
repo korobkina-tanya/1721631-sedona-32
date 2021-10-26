@@ -189,8 +189,8 @@ body {
 }
 
 .advantages-item {
-  display: grid;
-  grid-template-rows: 184px 28px 172px;
+  display: flex;
+  flex-direction: column;
   width: 400px;
   height: 384px;
   margin-right: 0;
@@ -200,12 +200,6 @@ body {
 .advantages-item-large {
   width: 800px;
 }
-
-.advantages-item img {
-  margin: 0 auto;
-  grid-row: 1/2;
-  padding-bottom: 23px;
- }
 
 .advantages-item-special-blue {
   color: #FFFFFF;
@@ -242,24 +236,40 @@ body {
   padding-bottom: 26px;
 }
 
+.advantages-item :last-child {
+  padding-bottom: 77px;
+}
+
 .advantages-title-service {
+  order: 1;
   width: 200px;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   margin: 0 auto;
   padding: 0;
-  grid-row: 2/3;
+  padding-bottom: 20px;
 }
 
 .advantages-discription-service {
+  order: 2;
   width: 250px;
   font-size: 18px;
   line-height: 21px;
   margin: 0 auto;
   padding: 0;
-  padding-top: 20px;
-  grid-row: 3/4;
+}
+
+.advantages-item img {
+  order: -1;
+  margin: 0 auto;
+  padding-bottom: 23px;
+  padding-top: 85px;
+ }
+
+.advantages-item-special-white :last-child,
+.advantages-item-special-pale-blue :last-child {
+  padding-bottom: 79px;
 }
 
 .advantages-item-large-hotel {
