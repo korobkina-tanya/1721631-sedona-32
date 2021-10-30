@@ -380,6 +380,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin: 0 auto;
+  padding-top: 94px;
 }
 
 .subscription-index,
@@ -389,7 +390,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   padding: 0;
-  padding-top: 94px;
   width: 720px;
   margin: 0 auto;
 }
@@ -781,7 +781,7 @@ padding-bottom: 30px;
   color: #FFFFFF;
   background-color: #83B3D3;
   border-radius: 4px;
-  margin-left: 216px;
+  margin: 0 auto;
   margin-top: 31px;
   margin-bottom: 30px;
   text-decoration: none;
