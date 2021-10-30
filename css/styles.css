@@ -328,24 +328,32 @@ body {
 
 /* travel-dates */
 
+.interesting-hotels {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 91px;
+  margin-bottom: 91px;
+}
+
 .interesting {
   width: 720px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
+  padding: 0;
   margin: 0 auto;
-  padding-top: 91px;
+  padding-bottom: 15px;
 }
 
 .hotel-offers {
   width: 720px;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
+  padding: 0;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-bottom: 73px;
 }
 
 .button-search {
@@ -354,16 +362,12 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
+  width: 575px;
+  height: 60px;
   text-decoration: none;
   text-transform: uppercase;
-  margin-top: 73px;
-  margin-bottom: 91px;
-  margin-left: 312px;
-  padding-top: 13px;
-  padding-bottom: 17px;
-  padding-left: 150px;
-  padding-right: 150px;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 /* mailing-index */
