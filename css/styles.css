@@ -140,6 +140,8 @@ body {
 }
 
 .welcome-sedona {
+  min-height: 485px;
+  position: relative;
   background-image: url("/img/index/background-index.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -160,6 +162,12 @@ body {
   margin: 0 auto;
   padding: 0;
   padding-top: 63px;
+}
+
+.decoration-welcome {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .advantages-sedona {
@@ -278,6 +286,12 @@ body {
 
 .advantages-item-large-mountains {
   grid-column: 1/3;
+}
+
+.advantages-item-large-hotel img,
+.advantages-item-large-mountains img {
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-item-service-housing,
@@ -446,14 +460,16 @@ padding-bottom: 30px;
 /*  catalog */
 
 .inner-header {
+  min-height: 408px;
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: cover;
   background-image: url("/img/catalog/background-catalog.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   padding-left: 71px;
   padding-right: 72px;
   padding-top: 35px;
+  padding-bottom: 83px;
 }
 
 .inner-header-title {
