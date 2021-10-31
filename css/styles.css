@@ -329,7 +329,6 @@ body {
   flex-direction: column;
   text-align: center;
   margin-top: 91px;
-  margin-bottom: 91px;
 }
 
 .interesting {
@@ -376,6 +375,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-top: 91px;
   padding-top: 94px;
 }
 
@@ -646,8 +646,11 @@ padding-bottom: 30px;
 }
 
 .filter-search-results {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 .selected-hotel {
