@@ -197,12 +197,15 @@ body {
   flex-direction: column;
   width: 400px;
   height: 384px;
-  margin-right: 0;
-  margin-bottom: 0;
+  box-sizing: border-box;
+  padding-top: 98px;
+  padding-bottom: 77px;
 }
 
 .advantages-item-large {
   width: 800px;
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-item-special-blue {
@@ -227,8 +230,15 @@ body {
   text-transform: uppercase;
   margin: 0 auto;
   padding: 0;
-  padding-top: 98px;
-  padding-bottom: 25px;
+}
+
+.advantages-discription-sequential-number {
+  width: 250px;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 25px;
 }
 
 .advantages-discription {
@@ -237,11 +247,14 @@ body {
   line-height: 21px;
   margin: 0 auto;
   padding: 0;
-  padding-bottom: 26px;
+  padding-top: 26px;
 }
 
-.advantages-item :last-child {
-  padding-bottom: 77px;
+.advantages-item-service {
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 79px;
 }
 
 .advantages-title-service {
@@ -252,7 +265,7 @@ body {
   text-transform: uppercase;
   margin: 0 auto;
   padding: 0;
-  padding-bottom: 20px;
+  padding-top: 23px;
 }
 
 .advantages-discription-service {
@@ -262,18 +275,12 @@ body {
   line-height: 21px;
   margin: 0 auto;
   padding: 0;
+  padding-top: 20px;
 }
 
 .advantages-item img {
   order: -1;
   margin: 0 auto;
-  padding-bottom: 23px;
-  padding-top: 85px;
- }
-
-.advantages-item-special-white :last-child,
-.advantages-item-special-pale-blue :last-child {
-  padding-bottom: 79px;
 }
 
 .advantages-item-large-hotel {
@@ -286,8 +293,8 @@ body {
 
 .advantages-item-large-hotel img,
 .advantages-item-large-mountains img {
-  padding: 0;
-  margin: 0;
+
+
 }
 
 .advantages-item-service-housing,
