@@ -428,7 +428,7 @@ body {
 .page-footer-container {
 display: flex;
 justify-content: space-between;
-padding-left: 72px;
+padding-left: 57px;
 padding-right: 72px;
 padding-top: 40px;
 padding-bottom: 30px;
@@ -454,8 +454,10 @@ padding-bottom: 30px;
 }
 
 .footer-social-link {
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 
 /*  catalog */
 
