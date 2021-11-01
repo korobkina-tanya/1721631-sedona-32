@@ -656,7 +656,6 @@ padding-bottom: 30px;
 .filter-search-results {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   padding: 0;
   margin: 0;
 }
@@ -664,11 +663,16 @@ padding-bottom: 30px;
 .selected-hotel {
   display: grid;
   grid-template-columns: 216px 159px 1fr 160px;
-  grid-template-rows: 59px 1fr 37px;
+  grid-template-rows: 31px 1fr 37px;
+}
+
+.filter-search-results-item {
+  list-style: none;
+  padding-top: 31px;
+  padding-bottom: 30px;
 }
 
 .selected-hotel-image {
-  padding-top: 31px;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
 }
@@ -682,7 +686,6 @@ padding-bottom: 30px;
   grid-row: 1 / 2;
   padding: 0;
   margin: 0;
-  padding-top: 28px;
 }
 
 .selected-hotel-class {
@@ -716,7 +719,6 @@ padding-bottom: 30px;
 
 .selected-hotel-stars {
   margin: 0 auto;
-  padding-top: 34px;
   grid-column: 4 / 5;
   grid-row: 1 / 2;
 }
