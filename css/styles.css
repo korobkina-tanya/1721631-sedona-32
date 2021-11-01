@@ -148,33 +148,40 @@ body {
   padding-left: 371px;
 }
 
-.about-sedona {
-  width: 720px;
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 63px;
-}
-
 .decoration-welcome {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
+/* information-sedona*/
+
+.information-sedona {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 63px;
+  padding-bottom: 79px;
+  align-items: center;
+}
+
+.about-sedona {
+  width: 720px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-sedona {
   width: 720px;
   font-size: 22px;
   line-height: 36px;
-  text-align: center;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   padding-top: 23px;
-  padding-bottom: 79px;
 }
 
 /* advantages */
@@ -291,12 +298,6 @@ body {
   grid-column: 1/3;
 }
 
-.advantages-item-large-hotel img,
-.advantages-item-large-mountains img {
-
-
-}
-
 .advantages-item-service-housing,
 .advantages-item-service-souvenirs {
   color: #000000;
@@ -336,6 +337,7 @@ body {
   flex-direction: column;
   text-align: center;
   margin-top: 91px;
+  align-items: center;
 }
 
 .interesting {
@@ -345,7 +347,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 15px;
 }
 
@@ -354,7 +356,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 73px;
 }
 
@@ -369,7 +371,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 10px;
-  margin: 0 auto;
 }
 
 /* mailing-index */
@@ -384,6 +385,7 @@ body {
   margin: 0 auto;
   margin-top: 91px;
   padding-top: 94px;
+  padding-bottom: 93px;
 }
 
 .subscription-index,
@@ -409,7 +411,6 @@ body {
 
 .mailing-index form {
   padding-top: 26px;
-  padding-bottom: 93px;
 }
 
 .button-subscribe {
@@ -424,7 +425,7 @@ body {
   text-transform: uppercase;
 }
 
-/*  Footer */
+/* footer */
 
 .page-footer {
   width: 1200px;
@@ -465,8 +466,7 @@ padding-bottom: 30px;
   padding-right: 15px;
 }
 
-
-/*  catalog */
+/* catalog */
 
 .inner-header {
   min-height: 408px;
@@ -488,7 +488,8 @@ padding-bottom: 30px;
   margin: 0;
 }
 
-/* Breadcrumbs */
+/* breadcrumbs */
+
 .breadcrumbs {
   display: flex;
   flex-wrap: wrap;
@@ -500,7 +501,7 @@ padding-bottom: 30px;
   list-style-type: none;
 }
 
-/* Link */
+/* link */
 
 .breadcrumbs-link {
   font-size: 16px;
