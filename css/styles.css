@@ -1102,6 +1102,16 @@ body {
   grid-template-columns: 216px 159px 1fr 160px;
   grid-template-rows: 31px 52px 37px;
   box-sizing: border-box;
+  position: relative;
+}
+
+.selected-hotel::before {
+  content:'';
+  position: absolute;
+  top: -31px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .filter-search-results-item {
@@ -1338,6 +1348,25 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
+  position: relative;
+}
+
+.button-load-more::before {
+  content:'';
+  position: absolute;
+  top: -31px;
+  left: -217px;
+  right: -217px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.button-load-more::after {
+  content:'';
+  position: absolute;
+  top: 85px;
+  left: -217px;
+  right: -217px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 /* hotel-show-controls */
