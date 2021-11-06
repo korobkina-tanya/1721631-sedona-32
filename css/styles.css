@@ -193,6 +193,7 @@ body {
   margin-bottom: 14px;
   margin-left: 20px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-want:hover {
@@ -469,6 +470,7 @@ body {
   text-transform: uppercase;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .button-search:hover {
@@ -541,6 +543,7 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 0 10px 10px 0;
+  cursor: pointer;
 }
 
 .button-subscribe:hover {
@@ -821,16 +824,25 @@ body {
   list-style-type: none;
 }
 
-/* link */
-
 .home-page {
   margin-left: 2px;
   margin-right: 11px;
   fill: #FFFFFF;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 6px 8px 9px 8px;
 }
 
 .breadcrumbs-link:hover .home-page {
   opacity: 0.6;
+  fill: #FFFFFF;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 6px 8px 9px 8px;
 }
 
 .breadcrumbs-link:focus .home-page {
@@ -839,24 +851,40 @@ body {
   border-color: #83B3D3;
   border-width: 3px;
   border-radius: 4px;
+  padding: 6px 8px 9px 8px;
 }
 
 .breadcrumbs-link:active .home-page {
   opacity: 0.3;
-  border: none;
+  fill: #FFFFFF;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 6px 8px 9px 8px;
 }
 
 .breadcrumbs-link-catalog {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 3px 8px 3px 8px;
   text-decoration: none;
   text-transform: none;
-  margin-left: 10px;
 }
 
 .breadcrumbs-link-catalog:hover {
   opacity: 0.6;
+  color: #FFFFFF;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 3px 8px 3px 8px;
 }
 
 .breadcrumbs-link-catalog:focus {
@@ -865,11 +893,17 @@ body {
   border-color: #83B3D3;
   border-width: 3px;
   border-radius: 4px;
+  padding: 3px 8px 3px 8px;
 }
 
 .breadcrumbs-link-catalog:active {
   opacity: 0.3;
-  border: none;
+  color: #FFFFFF;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 3px 8px 3px 8px;
 }
 
 .search-filters-form {
@@ -966,10 +1000,10 @@ body {
   background-color: rgba(0, 0, 0, 0);
   width: 160px;
   height: 23px;
+  margin-top: 20px;
   text-decoration: none;
   border: none;
   cursor: pointer;
-  margin-top: 20px;
 }
 
 .button-reset:hover {
@@ -1099,8 +1133,8 @@ body {
 
 .selected-hotel {
   display: grid;
-  grid-template-columns: 216px 159px 1fr 160px;
-  grid-template-rows: 31px 52px 37px;
+  grid-template-columns: 201px 175px 1fr 160px;
+  grid-template-rows: 55px 28px 37px;
   box-sizing: border-box;
   position: relative;
 }
@@ -1150,30 +1184,44 @@ body {
   line-height: 31px;
   font-weight: 700;
   color: #000000;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 10px 16px 10px 15px;
   margin: 0;
-  padding: 0;
 }
 
 .selected-hotel-title-link {
   text-decoration: none;
 }
 
-.selected-hotel-title:hover {
+.selected-hotel-title-link:hover .selected-hotel-title {
   color: #756257;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 10px 16px 10px 15px;
 }
 
-.selected-hotel-title:focus {
+.selected-hotel-title-link:focus .selected-hotel-title {
   color: #756257;
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
   border-radius: 10px;
-  padding: 10px 16px;
+  padding: 10px 16px 10px 15px;
 }
 
-.selected-hotel-title:active {
+.selected-hotel-title-link:active .selected-hotel-title {
   opacity: 0.3;
-  border: none;
+  color: #756257;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 10px 16px 10px 15px;
 }
 
 .selected-hotel-class {
@@ -1184,6 +1232,7 @@ body {
   grid-row: 2 / 3;
   padding: 0;
   margin: 0;
+  margin-left: 15px;
   padding-top: 1px;
 }
 
@@ -1224,10 +1273,12 @@ body {
   background-color: #756257;
   width: 151px;
   height: 37px;
+  margin-left: 15px;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 .button-more-details:hover {
@@ -1260,6 +1311,7 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 .button-to-favorites:hover {
@@ -1299,6 +1351,7 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 .button-in-favorites:hover {
@@ -1333,6 +1386,7 @@ body {
 }
 
 .button-load-more {
+  position: relative;
   width: 625px;
   height: 55px;
   font-size: 20px;
@@ -1348,7 +1402,7 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
-  position: relative;
+  cursor: pointer;
 }
 
 .button-load-more::before {
