@@ -1114,7 +1114,6 @@ body {
   margin-right: auto;
 }
 
-/* Control */
 .select-control {
   width: 100%;
   padding-top: 12px;
@@ -1585,6 +1584,34 @@ body {
 .number-hotels-list {
   list-style: none;
   margin-left: 51px;
+}
+
+.number-of-hotels {
+  padding-top: 34px;
+}
+
+.number-hotels-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  margin-right: auto;
+}
+
+.select-control {
+  width: 100%;
+  padding-top: 13px;
+  padding-left: 17px;
+  padding-bottom: 12px;
+  font: inherit;
+  color: #333333;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  border: 2px solid #E5E5E5;
+  background-image: url("/img/catalog/breadcrumbs.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
 }
 
 /* mailing-catalog */
