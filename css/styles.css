@@ -156,20 +156,23 @@ body {
   border: none;
 }
 
-.navigation-link-like {
+.notification-container {
   position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
 }
 
-.navigation-link-like::before {
+.notification-container-text {
   position: absolute;
-  top: -1px;
-  right: -2px;
-  width: 19px;
-  height: 19px;
-  border-radius: 50%;
-  background-color: #7DB54F;
-  content: "12";
+  display: block;
+  height: 20px;
+  width: 20px;
+  top: -8px;
+  left: -10px;
   color: #FFFFFF;
+  background-color: #7DB550;
+  border-radius: 100%;
   font-size: 10px;
   line-height: 13px;
   font-weight: 400;
@@ -1154,29 +1157,39 @@ body {
   padding-bottom: 30px;
 }
 
-.selected-hotel-image {
+.selected-hotel-image-link {
   grid-column: 1 / 2;
   grid-row: 1 / 4;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
 }
 
-.selected-hotel-image:hover {
+.selected-hotel-image-link:hover {
   opacity: 0.6;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
 }
 
-.selected-hotel-image:focus {
+.selected-hotel-image-link:focus {
   opacity: 1;
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
 }
 
-.selected-hotel-image:active {
+.selected-hotel-image-link:active {
   opacity: 0.3;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
 }
 
 .selected-hotel-title-link {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
+  text-decoration: none;
 }
 
 .selected-hotel-title {
@@ -1190,10 +1203,6 @@ body {
   border-radius: 10px;
   padding: 10px 16px 10px 15px;
   margin: 0;
-}
-
-.selected-hotel-title-link {
-  text-decoration: none;
 }
 
 .selected-hotel-title-link:hover .selected-hotel-title {
@@ -1233,7 +1242,6 @@ body {
   padding: 0;
   margin: 0;
   margin-left: 15px;
-  padding-top: 1px;
 }
 
 .selected-hotel-price {
