@@ -534,6 +534,67 @@ body {
   padding-top: 26px;
 }
 
+.newsletter-form {
+  display: flex;
+
+}
+
+.newsletter-email {
+  flex-grow: 1;
+  margin: 0 auto;
+}
+
+.field {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #F2F2F2;
+  opacity: 0.6;
+  width: 600px;
+  height: 60px;
+  padding-left: 22px;
+  padding-right: 19px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.newsletter-email:hover .field {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #E5E5E5;
+  opacity: 0.6;
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.newsletter-email:focus .field {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #E5E5E5;
+  opacity: 0.6;
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 0 0 10px;
+  border-style: solid;
+  border-color: #83B3D3;
+  border-width: 3px;
+}
+
+.newsletter-email:active .field {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 0 0 10px;
+  border:none;
+}
+
 .button-subscribe {
   font-size: 20px;
   line-height: 26px;
@@ -547,6 +608,7 @@ body {
   border: none;
   border-radius: 0 10px 10px 0;
   cursor: pointer;
+  margin: 0;
 }
 
 .button-subscribe:hover {
@@ -1040,13 +1102,33 @@ body {
   height: 134px;
 }
 
+.sorting-type {
+  padding-top: 44px;
+}
+
 .services-selector-list {
-  display: inline-flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-left: auto;
+  position: relative;
+  display: flex;
   align-items: center;
+  width: 287px;
+  margin-right: auto;
+}
+
+/* Control */
+.select-control {
+  width: 100%;
+  padding-top: 12px;
+  padding-left: 19px;
+  padding-bottom: 13px;
+  font: inherit;
+  color: #333333;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  border: 2px solid #E5E5E5;
+  background-image: url("/img/catalog/breadcrumbs.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  appearance: none;
 }
 
 .catalog-views {
@@ -1511,12 +1593,7 @@ body {
   margin-bottom: 138px;
 }
 
-.your-e-mail {
-  font-size: 18px;
-  line-height: 26px;
-  color: #000000;
-  background-color: #F2F2F2;
-  width: 600px;
-  height: 60px;
-  text-decoration: none;
-}
+
+
+
+

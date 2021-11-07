@@ -153,11 +153,18 @@
         <section class="searching-results">
           <div class="block-searching-results">
             <p class="found-hotels">Найдено гостиниц: 38</p>
-            <ul class="services-selector-list">
-              <li class="services-selector-item services-selector-item-selected" id="service-item-cheap">Сначала дешевые</li>
-              <li class="services-selector-item" id="service-item-expensive">Сначала дорогие</li>
-              <li class="services-selector-item" id="service-item-popular">Популярные</li>
-            </ul>
+
+            <form class="sorting-type">
+              <div class="services-selector-list">
+                <label class="visually-hidden" for="sorting">Сортировка</label>
+                <select class="select-control" id="sorting">
+                  <option value="cheap">Сначала дешевые</option>
+                  <option value="expensive">Сначала дорогие</option>
+                  <option value="popular">Сначала популярные</option>
+                </select>
+              </div>
+              <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+            </form>
 
             <ul class="catalog-views">
 
@@ -320,9 +327,12 @@
         <section class="mailing-catalog">
           <h2 class="subscription-catalog">Подпишитесь на рассылку</h2>
           <p class="discription-mailing-catalog">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form method="POST" action="https://echo.htmlacademy.ru">
-            <input class="your-e-mail" type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
-            <button class="button-subscribe" type="button">Подписаться</button>
+          <form class="newsletter-form" method="POST" action="https://echo.htmlacademy.ru">
+            <p class="newsletter-email">
+              <label class="visually-hidden" for="newsletter-email">email</label>
+              <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+            </p>
+            <button class="button-subscribe" type="submit">Подписаться</button>
           </form>
         </section>
       </div>

@@ -136,8 +136,11 @@
         <section class="mailing-index">
           <h2 class="subscription-index">Подпишитесь на рассылку</h2>
           <p class="discription-mailing-index">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
-          <form method="POST" action="https://echo.htmlacademy.ru">
-            <input class="your-e-mail" type="text" name="e-mail" id="e-mail" placeholder="Ваш e-mail"/>
+          <form class="newsletter-form" method="POST" action="https://echo.htmlacademy.ru">
+            <p class="newsletter-email">
+              <label class="visually-hidden" for="newsletter-email">email</label>
+              <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+            </p>
             <button class="button-subscribe" type="submit">Подписаться</button>
           </form>
         </section>
