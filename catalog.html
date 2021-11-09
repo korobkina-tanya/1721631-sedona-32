@@ -73,7 +73,7 @@
               </a>
             </li>
             <li class="breadcrumbs-item">
-              <img class="home-page" src="img/catalog/breadcrumbs.svg" width="8" height="8" alt="Следующая страница">
+              <img class="breadcrumbs-arrow" src="img/catalog/breadcrumbs.svg" width="8" height="8" alt="Следующая страница">
             </li>
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link breadcrumbs-link-catalog" href="catalog.html">Гостиницы</a>
@@ -119,22 +119,27 @@
 
               <fieldset class="search-filter-type-price">
                 <legend>Стоимость, &#x20bd;:</legend>
+
                 <div class="range-filter">
-                  <div class="price-controls">
-                    <label class="min-price">
-                      <input type="number" name="min-price" value="0">
+
+                  <div class="range-wrapper-inputs">
+                    <label class="catalog-filter-label label-min-price">
+                      <input class="range-input" type="number" value="0" name="min-price"> от
                     </label>
-                    <label class="max-price">
-                      <input type="number" name="max-price" value="9000">
+                    <label class="catalog-filter-label label-max-price">
+                      <input class="range-input" type="number" value="9000" name="max-price"> до
                     </label>
                   </div>
 
-                  <div class="range-controls">
-                    <div class="scale">
-                      <div class="bar" style="width: 60%; margin-left: 20%;"></div>
+                  <div class="range-scale">
+                    <div class="range-bar" style="left: 0; width: 216px">
+                      <button class="range-toggle toggle-min">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                      </button>
+                      <button class="range-toggle toggle-max">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                      </button>
                     </div>
-                    <div class="toggle toggle-min" tabindex="0"></div>
-                    <div class="toggle toggle-max" tabindex="0"></div>
                   </div>
 
                 </div>
