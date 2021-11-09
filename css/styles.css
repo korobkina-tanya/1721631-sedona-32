@@ -165,7 +165,7 @@ body {
 
 .notification-container-text {
   position: absolute;
-  display: block;
+  display: flex;
   height: 20px;
   width: 20px;
   top: -8px;
@@ -176,7 +176,8 @@ body {
   font-size: 10px;
   line-height: 13px;
   font-weight: 400;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-want {
@@ -536,7 +537,8 @@ body {
 
 .newsletter-form {
   display: flex;
-
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .newsletter-email {
@@ -550,12 +552,14 @@ body {
   color: #000000;
   background-color: #F2F2F2;
   opacity: 0.6;
-  width: 600px;
+  width: 100%;
   height: 60px;
+  box-sizing: border-box;
   padding-left: 22px;
   padding-right: 19px;
   border-radius: 10px 0 0 10px;
   border: none;
+
 }
 
 .newsletter-email:hover .field {
@@ -1302,6 +1306,7 @@ body {
   border-width: 3px;
   border-radius: 10px;
   padding: 10px 16px 10px 15px;
+  outline: none;
 }
 
 .selected-hotel-title-link:active .selected-hotel-title {
@@ -1534,11 +1539,10 @@ body {
 }
 
 .pagination-link {
-  display: block;
+  display: flex;
   box-sizing: border-box;
   width: 55px;
   height: 55px;
-  text-align: center;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
@@ -1548,6 +1552,8 @@ body {
   border-radius: 4px;
   text-decoration: none;
   border: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination-link:hover {
