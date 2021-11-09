@@ -1128,7 +1128,7 @@ body {
   font-weight: 400;
   background-color: #FFFFFF;
   border: 2px solid #E5E5E5;
-  background-image: url("/img/catalog/breadcrumbs.svg");
+  background-image: url("/img/catalog/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   appearance: none;
@@ -1222,7 +1222,7 @@ body {
 .selected-hotel {
   display: grid;
   grid-template-columns: 201px 175px 1fr 160px;
-  grid-template-rows: 55px 28px 37px;
+  grid-template-rows: 31px 54px 37px;
   box-sizing: border-box;
   position: relative;
 }
@@ -1279,14 +1279,15 @@ body {
 
 .selected-hotel-title {
   font-size: 24px;
-  line-height: 31px;
   font-weight: 700;
   color: #000000;
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
   border-radius: 10px;
-  padding: 10px 16px 10px 15px;
+  padding: 0;
+  padding-left: 15px;
+  line-height: 24px;
   margin: 0;
 }
 
@@ -1296,7 +1297,8 @@ body {
   border-color: transparent;
   border-width: 3px;
   border-radius: 10px;
-  padding: 10px 16px 10px 15px;
+  padding: 0;
+  padding-left: 15px;
 }
 
 .selected-hotel-title-link:focus .selected-hotel-title {
@@ -1305,7 +1307,8 @@ body {
   border-color: #83B3D3;
   border-width: 3px;
   border-radius: 10px;
-  padding: 10px 16px 10px 15px;
+  padding: 0;
+  padding-left: 15px;
   outline: none;
 }
 
@@ -1316,7 +1319,8 @@ body {
   border-color: transparent;
   border-width: 3px;
   border-radius: 10px;
-  padding: 10px 16px 10px 15px;
+  padding: 0;
+  padding-left: 15px;
 }
 
 .selected-hotel-class {
@@ -1614,7 +1618,7 @@ body {
   font-weight: 400;
   background-color: #FFFFFF;
   border: 2px solid #E5E5E5;
-  background-image: url("/img/catalog/breadcrumbs.svg");
+  background-image: url("/img/catalog/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   appearance: none;
