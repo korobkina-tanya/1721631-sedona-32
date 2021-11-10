@@ -84,38 +84,59 @@
 
             <form class="search-filters-form" method="POST" action="https://echo.htmlacademy.ru">
 
-              <div class="search-filter-type-infrastructure">
-                <h2>Инфраструктура:</h2>
-                <div class="label-infrastructure">
-                  <label for="infrastructure-waterpool">Бассейн</label>
-                  <input type="checkbox" name="infrastructure-waterpool" id="infrastructure-waterpool" checked>
-                </div>
+              <fieldset class="catalog-filter-group catalog-filter-group-infrastructure">
+                <legend class="catalog-filter-title">Инфраструктура:</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden control-input" type="checkbox" name="infrastructure-waterpool" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Бассейн</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden control-input" type="checkbox" name="infrastructure-parking" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Парковка</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden control-input" type="checkbox" name="infrastructure-wi-fi">
+                      <span class="control-mark"></span>
+                      <span class="control-label">Wi-Fi</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
 
-                <div class="label-infrastructure">
-                  <label for="infrastructure-parking">Парковка</label>
-                  <input type="checkbox" name="infrastructure-parking" id="infrastructure-parking" checked>
-                </div>
-
-                <div class="label-infrastructure">
-                  <label for="infrastructure-wi-fi">Wi-Fi</label>
-                  <input type="checkbox" name="infrastructure-wi-fi" id="infrastructure-wi-fi">
-                </div>
-              </div>
-
-              <div class="search-filter-type-housing">
-                <h2>Тип жилья:</h2>
-                  <label class="choice-housing-type">
-                    Гостиница <input type="radio" name="housing-type" value="Гостиница" checked>
-                  </label>
-
-                  <label class="choice-housing-type">
-                    Мотель <input type="radio" name="housing-type" value="Мотель">
-                  </label>
-
-                  <label class="choice-housing-type">
-                    Аппартаменты <input type="radio" name="housing-type" value="Аппартаменты">
-                  </label>
-              </div>
+              <fieldset class="catalog-filter-group catalog-filter-group-type-housing">
+                <legend class="catalog-filter-title">Тип жилья:</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden control-input" type="radio" name="product-group" value="hotel" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Гостиница</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden control-input" type="radio" name="product-group" value="motel">
+                      <span class="control-mark"></span>
+                      <span class="control-label">Мотель</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden control-input" type="radio" name="product-group" value="apartments">
+                      <span class="control-mark"></span>
+                      <span class="control-label">Аппартаменты</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
 
               <fieldset class="search-filter-type-price">
                 <legend>Стоимость, &#x20bd;:</legend>
