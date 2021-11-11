@@ -1042,7 +1042,7 @@ body {
   position: absolute;
   box-sizing: border-box;
   top: 2px;
-  left: 0;
+  left: 4px;
   width: 20px;
   height: 20px;
   background-color: #FFFFFF;
@@ -1050,21 +1050,21 @@ body {
   border-radius: 4px;
 }
 
-.control-input[type="checkbox"]:hover .control-mark {
+.control-input[type="checkbox"]:hover + .control-mark {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control-input[type="checkbox"]:focus .control-mark {
+.control-input[type="checkbox"]:focus + .control-mark {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control-input[type="checkbox"]:active .control-mark {
+.control-input[type="checkbox"]:active + .control-mark {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
@@ -1076,19 +1076,29 @@ body {
   position: absolute;
   top: 7px;
   left: 2px;
-  width: 12px;
-  height: 2px;
-  background-color: #3F5E72;
-  content: "";
+  background-image: url("/img/catalog/check-mark.svg");
+  background-repeat: no-repeat;
 }
 
 .control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]:focus .control-mark {
+.control-input[type="radio"]:hover + .control-mark {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+}
+
+.control-input[type="radio"]:focus + .control-mark {
   border-style: solid;
   border-color: #83B3D3;
+  border-width: 3px;
+}
+
+.control-input[type="radio"]:active + .control-mark {
+  border-style: solid;
+  border-color: transparent;
   border-width: 3px;
 }
 
