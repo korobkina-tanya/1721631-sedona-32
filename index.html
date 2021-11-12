@@ -47,7 +47,7 @@
 
             </a>
 
-            <div class="popover popover-content">
+            <div class="popover popover-content popover-close">
               <h2 class="visually-hidden">Избранное></h2>
               <ul class="favorites-items-list">
                 <li class="favorites-item">
@@ -237,6 +237,41 @@
       </div>
 
     </footer>
+
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-auth">
+        <button class="modal-close-button" type="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="selection-housing-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="field-group selection-housing-form-date-arrival">
+              <label for="selection-date-arrival">Дата заезда:</label>
+              <input class="field" type="text" id="selection-date-arrival" name="selection-date-arrival" placeholder="27 апреля 2020">
+            </div>
+
+            <div class="field-group selection-housing-form-date-departure">
+              <label for="selection-date-departure">Дата выезда:</label>
+              <input class="field" type="text" id="selection-date-departure" name="selection-date-departure" placeholder="1 сентября 2021">
+            </div>
+
+            <div class="field-group selection-housing-form-adults">
+              <label class="form-label" for="selection-adults">Взрослые:</label>
+              <input class="field" type="text" id="selection-adults" name="selection-adults" placeholder="2">
+            </div>
+
+            <div class="field-group selection-housing-form-children">
+              <label class="form-label" for="selection-children">Дети:</label>
+              <input class="field" type="text" id="selection-children" name="selection-children" placeholder="1">
+            </div>
+          </form>
+
+          <button class="button-find" type="button">Найти</button>
+
+        </section>
+      </div>
+    </div>
 
   </body>
 
