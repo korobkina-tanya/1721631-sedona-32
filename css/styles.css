@@ -1181,6 +1181,8 @@ body {
   position: absolute;
   height: 4px;
   background-color: #FFFFFF;
+  left: 0;
+  width: 216px;
 }
 
 .range-toggle {
@@ -1235,21 +1237,16 @@ body {
 }
 
 .catalog-filter-label:hover {
-  border-style: solid;
   border-color: rgba(255, 255, 255, 0.3);
-  border-width: 2px;
 }
 
-.catalog-filter-label:focus {
-  border-style: solid;
+.catalog-filter-label:focus-within {
   border-color: #FFFFFF;
-  box-shadow: inset 0 0 0 2px #81B3D2, 0 0 0 2px #81B3D2;
+  box-shadow: inset 0 0 0 2px #83B3D3, 0 0 0 2px #83B3D3;
 }
 
 .catalog-filter-label:active {
-  border-style: solid;
   border-color: #FFFFFF;
-  border-width: 2px;
   background-color: #756257;
 }
 
@@ -1989,10 +1986,10 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
 }
-
+/*
 .modal-container-close {
   display: none;
-}
+} */
 
 .modal {
   position: relative;
