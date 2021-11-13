@@ -1003,7 +1003,7 @@ body {
   color: #FFFFFF;
   padding: 0;
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 34px;
 }
 
 /* Group */
@@ -1076,7 +1076,7 @@ body {
   position: absolute;
   top: 7px;
   left: 4px;
-  background-image: url("../img/catalog/check-mark.svg");
+  background-image: url("/img/catalog/check-mark.svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -1174,7 +1174,6 @@ body {
   position: relative;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
-  margin-top: 20px;
 }
 
 .range-bar {
@@ -1221,6 +1220,7 @@ body {
   display: flex;
   height: 48px;
   width: 287px;
+  margin-bottom: 32px;
 }
 
 .catalog-filter-label {
@@ -1996,11 +1996,11 @@ body {
   margin: auto;
   padding: 62px 70px 70px 70px;
   background-color: #FFFFFF;
+  box-sizing: border-box;
 }
 
 .modal-auth {
   width: 715px;
-  height: 561px;
   border-radius: 30px;
 }
 
@@ -2020,6 +2020,24 @@ body {
   cursor: pointer;
 }
 
+.modal-close-button:hover {
+  background-color: #E5E5E5;
+}
+
+.modal-close-button:focus {
+  background-color: #E5E5E5;
+  border-style: solid;
+  border-color: #83B3D3;
+  border-width: 3px;
+}
+
+.modal-close-button:active {
+  background-color: #E5E5E5;
+  opacity: 0.4;
+  border: none;
+}
+
+
 .modal-title {
   font-size: 30px;
   line-height: 40px;
@@ -2027,13 +2045,182 @@ body {
   color: #000000;
   text-transform: uppercase;
   padding: 0;
+  padding-bottom: 32px;
   margin: 0;
 }
 
 .selection-housing-form {
   display: grid;
-  grid-template-columns: 155px 134px 286px;
-  grid-template-rows: 90px 90px 50px;
+  grid-template-columns: 575px;
+  grid-template-rows: 79px 11px 79px 11px 50px 40px;
+}
+
+.selection-housing-form-date-arrival {
+  display: grid;
+  grid-template-columns: 155px 420px;
+  grid-template-rows: 50px 29px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  position: relative;
+}
+
+.selection-housing-form-date-departure {
+  display: grid;
+  grid-template-columns: 155px 420px;
+  grid-template-rows: 50px 29px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  position: relative;
+}
+
+.selection-housing-form-people {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+.selection-housing-form-adults .field-modal {
+  margin-left: 70px;
+}
+
+.selection-housing-form-date-arrival .field-modal,
+.selection-housing-form-date-departure .field-modal {
+  width: 420px;
+}
+
+.selection-housing-form-adults .field-modal,
+.selection-housing-form-children .field-modal {
+  width: 133px;
+}
+
+.selection-housing-form-adults {
+  display: flex;
+  position: relative;
+}
+
+.selection-housing-form-children {
+  display: flex;
+  position: relative;
+}
+
+.field-modal {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 19px;
+  padding-right: 19px;
+  border-radius: 4px;
+  border: none;
+}
+
+.selection-housing-form-date-arrival label,
+.selection-housing-form-date-departure label,
+.selection-housing-form-adults label,
+.selection-housing-form-children label {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  align-self: center;
+}
+
+.selection-housing-form-date-arriva-info {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FF5757;
+  padding: 0;
+  margin: 0;
+}
+
+.selection-housing-form-date-departure-info {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  font-size: 16px;
+  line-height: 40px;
+  color: #333333;
+  padding: 0;
+  margin: 0;
+}
+
+.button-calendar {
+  position: absolute;
+  top: 10px;
+  left: 530px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+.calendar {
+  fill: #000000;
+  opacity: 0.3;
+}
+
+.button-info {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #83B3D3;
+  align-self: center;
+  margin-right: 18px;
+  margin-left: 10px;
+  border: none;
+}
+
+.sign-minus,
+.sign-plus {
+  fill: #000000;
+  opacity: 0.3;
+}
+
+.selection-housing-form-adults .button-sign-minus {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  position: absolute;
+  left: 167px;
+  align-self: center;
+}
+
+.selection-housing-form-adults .button-sign-plus {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  position: absolute;
+  left: 245px;
+  align-self: center;
+}
+
+.selection-housing-form-children .button-sign-minus {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  position: absolute;
+  left: 115px;
+  align-self: center;
+}
+
+.selection-housing-form-children .button-sign-plus {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  position: absolute;
+  left: 187px;
+  align-self: center;
+}
+
+.info {
+  fill: #FFFFFF;
 }
 
 .button-find {
@@ -2049,5 +2236,22 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.button-find:hover {
+  background-color: #68A2CA;
+}
+
+.button-find:focus {
+  background-color: #68A2CA;
+  border-style: solid;
+  border-color: #756257;
+  border-width: 3px;
+}
+
+.button-find:active {
+  background-color: #68A2CA;
+  color: rgba(255, 255, 255, 0.3);
+  border: none;
 }
 

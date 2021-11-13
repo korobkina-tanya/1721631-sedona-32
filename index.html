@@ -248,23 +248,90 @@
           <form class="selection-housing-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="field-group selection-housing-form-date-arrival">
               <label for="selection-date-arrival">Дата заезда:</label>
-              <input class="field" type="text" id="selection-date-arrival" name="selection-date-arrival" placeholder="27 апреля 2020">
+              <input class="field-modal" type="text" id="selection-date-arrival" name="selection-date-arrival" placeholder="27 апреля 2020">
+              <button class="button-calendar" href="#" type="button">
+                <svg class="calendar" aria-hidden="true" focusable="false" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z" />
+                  <path d="M15 2H13V0H12V2H4V0H3V2H1C0.4 2 0 2.4 0 3V14C0 14.5 0.4 15 1 15H15C15.5 15 16 14.5 16 14V3C16 2.4 15.5 2 15 2ZM15 14H1V7H15V14ZM1 6V3H3V5H4V3H12V5H13V3H15V6H1Z" />
+                  <path d="M8 10C8.3 10 8.5 9.8 8.5 9.5C8.5 9.2 8.3 9 8 9C7.7 9 7.5 9.2 7.5 9.5C7.5 9.8 7.7 10 8 10Z" />
+                  <path d="M10.25 10C10.55 10 10.75 9.8 10.75 9.5C10.75 9.2 10.55 9 10.25 9C9.95 9 9.75 9.2 9.75 9.5C9.75 9.8 9.95 10 10.25 10Z" />
+                  <path d="M5.75 11C5.45 11 5.25 11.2 5.25 11.5C5.25 11.8 5.45 12 5.75 12C6.05 12 6.25 11.8 6.25 11.5C6.25 11.2 6.05 11 5.75 11Z" />
+                  <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z" />
+                  <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z" />
+                  <path d="M8 11C7.7 11 7.5 11.2 7.5 11.5C7.5 11.8 7.7 12 8 12C8.3 12 8.5 11.8 8.5 11.5C8.5 11.2 8.3 11 8 11Z" />
+                  <path d="M10.25 11C9.95 11 9.75 11.2 9.75 11.5C9.75 11.8 9.95 12 10.25 12C10.55 12 10.75 11.8 10.75 11.5C10.75 11.2 10.55 11 10.25 11Z" />
+                  <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" />
+                  <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" />
+                  </svg>
+                <span class="visually-hidden">выбрать дату</span>
+              </button>
+              <p class="selection-housing-form-date-arriva-info">Мы не можем отправить вас в прошлое.</p>
             </div>
+
 
             <div class="field-group selection-housing-form-date-departure">
               <label for="selection-date-departure">Дата выезда:</label>
-              <input class="field" type="text" id="selection-date-departure" name="selection-date-departure" placeholder="1 сентября 2021">
+              <input class="field-modal" type="text" id="selection-date-departure" name="selection-date-departure" placeholder="1 сентября 2021">
+              <button class="button-calendar" href="#" type="button">
+                <svg class="calendar" aria-hidden="true" focusable="false" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z" />
+                  <path d="M15 2H13V0H12V2H4V0H3V2H1C0.4 2 0 2.4 0 3V14C0 14.5 0.4 15 1 15H15C15.5 15 16 14.5 16 14V3C16 2.4 15.5 2 15 2ZM15 14H1V7H15V14ZM1 6V3H3V5H4V3H12V5H13V3H15V6H1Z" />
+                  <path d="M8 10C8.3 10 8.5 9.8 8.5 9.5C8.5 9.2 8.3 9 8 9C7.7 9 7.5 9.2 7.5 9.5C7.5 9.8 7.7 10 8 10Z" />
+                  <path d="M10.25 10C10.55 10 10.75 9.8 10.75 9.5C10.75 9.2 10.55 9 10.25 9C9.95 9 9.75 9.2 9.75 9.5C9.75 9.8 9.95 10 10.25 10Z" />
+                  <path d="M5.75 11C5.45 11 5.25 11.2 5.25 11.5C5.25 11.8 5.45 12 5.75 12C6.05 12 6.25 11.8 6.25 11.5C6.25 11.2 6.05 11 5.75 11Z" />
+                  <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z" />
+                  <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z" />
+                  <path d="M8 11C7.7 11 7.5 11.2 7.5 11.5C7.5 11.8 7.7 12 8 12C8.3 12 8.5 11.8 8.5 11.5C8.5 11.2 8.3 11 8 11Z" />
+                  <path d="M10.25 11C9.95 11 9.75 11.2 9.75 11.5C9.75 11.8 9.95 12 10.25 12C10.55 12 10.75 11.8 10.75 11.5C10.75 11.2 10.55 11 10.25 11Z" />
+                  <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" />
+                  <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" />
+                  </svg>
+                <span class="visually-hidden">выбрать дату</span>
+              </button>
+              <p class="selection-housing-form-date-departure-info">На эти даты есть свободные номера. Пока есть.</p>
             </div>
 
-            <div class="field-group selection-housing-form-adults">
-              <label class="form-label" for="selection-adults">Взрослые:</label>
-              <input class="field" type="text" id="selection-adults" name="selection-adults" placeholder="2">
+            <div class="field-group selection-housing-form-people" >
+              <div class="selection-housing-form-adults">
+                <label class="form-label" for="selection-adults">Взрослые:</label>
+                <button class="button-sign-minus" href="#" type="button">
+                  <svg class="sign-minus" aria-hidden="true" focusable="false" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0L0 2L14 2V0L0 0Z" />
+                    </svg>
+                  <span class="visually-hidden">уменьшить</span>
+                </button>
+                <input class="field-modal" type="text" id="selection-adults" name="selection-adults" placeholder="2">
+                <button class="button-sign-plus" href="#" type="button">
+                  <svg class="sign-plus" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                    </svg>
+                  <span class="visually-hidden">увеличить</span>
+                </button>
+              </div>
+
+              <div class="selection-housing-form-children">
+                <label class="form-label" for="selection-children">Дети:</label>
+                <button class="button-info" href="#" type="button">
+                  <svg class="info" aria-hidden="true" focusable="false" width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z" />
+                  </svg>
+                  <span class="visually-hidden">Указать количество детей</span>
+                </button>
+                <button class="button-sign-minus" href="#" type="button">
+                  <svg class="sign-minus" aria-hidden="true" focusable="false" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0L0 2L14 2V0L0 0Z" />
+                    </svg>
+                  <span class="visually-hidden">уменьшить</span>
+                </button>
+                <input class="field-modal" type="text" id="selection-children" name="selection-children" placeholder="1">
+                <button class="button-sign-plus" href="#" type="button">
+                  <svg class="sign-plus" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                    </svg>
+                  <span class="visually-hidden">увеличить</span>
+                </button>
+              </div>
             </div>
 
-            <div class="field-group selection-housing-form-children">
-              <label class="form-label" for="selection-children">Дети:</label>
-              <input class="field" type="text" id="selection-children" name="selection-children" placeholder="1">
-            </div>
           </form>
 
           <button class="button-find" type="button">Найти</button>
