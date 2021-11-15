@@ -20,7 +20,7 @@ html {
 
 body {
   display: flex;
-  width: 1020px;
+  min-width: 1280px;
   flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
@@ -49,8 +49,6 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 /*  page-header */
@@ -65,12 +63,10 @@ body {
 
 .navigation {
   display: flex;
-  justify-content: space-between;
   position: relative;
+  justify-content: space-between;
   padding-left: 59px;
   padding-right: 72px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .navigation-list {
@@ -81,6 +77,10 @@ body {
   align-self: center;
   margin: 0;
   padding: 0;
+}
+
+.navigation-item {
+  position: relative;
 }
 
 .navigation-link {
@@ -231,7 +231,7 @@ body {
 
 .main-header-logo {
   position: absolute;
-  left: 531px;
+  left: 507px;
   top: 0;
   z-index: 2;
 }
@@ -646,8 +646,6 @@ body {
   padding-right: 72px;
   padding-top: 40px;
   padding-bottom: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .footer-social {
@@ -1737,8 +1735,8 @@ body {
 
 .popover {
   position: absolute;
-  top: 62px;
-  right: 112px;
+  top: 44px;
+  left: -150px;
   z-index: 1;
   width: 400px;
   min-height: 146px;
@@ -1777,23 +1775,24 @@ body {
   grid-template-rows: 24px 24px;
   box-sizing: border-box;
   grid-column: 1 / 2;
+  border-radius: 10px;
+  padding: 10px;
+  outline: 3px solid transparent;
 }
 
 .selected-hotel-small:hover {
   opacity: 0.4;
+  outline: 3px solid transparent;
 }
 
 .selected-hotel-small:focus {
   opacity: 1;
-  border-style: solid;
-  border-color: #83B3D3;
-  border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
+  outline: 3px solid #83B3D3;
 }
 
 .selected-hotel-small:active {
   opacity: 0.2;
+  outline: 3px solid transparent;
 }
 
 .selected-hotel-small-title {
@@ -1816,31 +1815,26 @@ body {
   fill: #000000;
   opacity: 0.2;
   padding: 10px;
-  border: none;
+  border-radius: 10px;
+  outline: 3px solid transparent;
 }
 
 .favorites-item-button:hover .icon-delete {
   fill: #000000;
   opacity: 1;
-  padding: 10px;
-  border: none;
+  outline: 3px solid transparent;
 }
 
 .favorites-item-button:focus .icon-delete {
   fill: #000000;
   opacity: 1;
-  border-style: solid;
-  border-color: #83B3D3;
-  border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
+  outline: 3px solid #83B3D3;
 }
 
 .favorites-item-button:active .icon-delete {
   fill: #000000;
   opacity: 0.1;
-  padding: 10px;
-  border: none;
+  outline: 3px solid transparent;
 }
 
 .selected-hotel-small-image-link {
@@ -1902,11 +1896,11 @@ body {
   color: rgba(255, 255, 255, 0.3);
   border: none;
 }
-
+/*
 .popover-close {
   display: none;
 }
-
+*/
 /* modal */
 
 .modal-container {
