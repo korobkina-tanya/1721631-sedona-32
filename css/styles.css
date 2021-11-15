@@ -78,6 +78,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -90,13 +91,21 @@ body {
   padding: 6px 12px;
 }
 
+.navigation-link-current::before {
+  position: absolute;
+  right: 12px;
+  bottom: -15px;
+  left: 12px;
+  height: 2px;
+  background-color: #756257;
+  content: "";
+}
+
 .navigation-link:hover {
   color: #756257;
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 6px 12px;
 }
 
 .navigation-link:focus {
@@ -104,8 +113,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 6px 12px;
 }
 
 .navigation-link:active {
@@ -114,8 +121,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 6px 12px;
 }
 
 .navigation-user .navigation-link {
@@ -562,71 +567,60 @@ body {
 }
 
 .newsletter-email:hover .field {
-  font-size: 18px;
-  line-height: 26px;
   color: rgba(255, 255, 255, 0.6);
   background-color: #E5E5E5;
-  width: 600px;
-  height: 60px;
-  border-radius: 10px 0 0 10px;
   border: none;
 }
 
 .newsletter-email:focus .field {
-  font-size: 18px;
-  line-height: 26px;
   color: rgba(255, 255, 255, 0.6);
   background-color: #E5E5E5;
-  width: 600px;
-  height: 60px;
-  border-radius: 10px 0 0 10px;
-  border-style: solid;
-  border-color: #83B3D3;
-  border-width: 3px;
+  outline: 3px solid #83B3D3;
 }
 
 .newsletter-email:active .field {
-  font-size: 18px;
-  line-height: 26px;
   color: #000000;
   background-color: #FFFFFF;
-  width: 600px;
-  height: 60px;
-  border-radius: 10px 0 0 10px;
-  border:none;
+  outline: 2px solid #000000;
+}
+
+.newsletter-email:disabled .field {
+  color: #000000;
+  background-color: #FFFFFF;
+  outline: 2px solid #FF5757;
 }
 
 .button-subscribe {
+  width: 200px;
+  height: 60px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
-  width: 200px;
-  height: 60px;
+  margin: 0;
   text-decoration: none;
   text-transform: uppercase;
-  border: none;
-  border-radius: 0 10px 10px 0;
   cursor: pointer;
-  margin: 0;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  outline: 3px solid transparent;
 }
 
 .button-subscribe:hover {
   background-color: #68A2CA;
+  outline: 3px solid transparent;
 }
 
 .button-subscribe:focus {
   background-color: #68A2CA;
-  border-style: solid;
-  border-color: #756257;
-  border-width: 3px;
+  outline: 3px solid #756257;
 }
 
 .button-subscribe:active {
   background-color: #68A2CA;
   color: rgba(255, 255, 255, 0.3);
-  border: none;
+  outline: 3px solid transparent;
 }
 
 /* footer */
@@ -678,8 +672,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .main-footer-logo:focus .icon-footer-logo {
@@ -687,8 +679,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .main-footer-logo:active .icon-footer-logo {
@@ -697,8 +687,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .phone-number-footer {
@@ -717,8 +705,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 15px;
 }
 
 .phone-number-footer:focus {
@@ -726,8 +712,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 15px;
 }
 
 .phone-number-footer:active {
@@ -736,8 +720,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 15px;
 }
 
 .footer-social-link {
@@ -758,8 +740,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .footer-social-link:focus .social-link-twitter {
@@ -767,8 +747,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .footer-social-link:active .social-link-twitter {
@@ -777,8 +755,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .social-link-fb {
@@ -795,8 +771,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .footer-social-link:focus .social-link-fb {
@@ -804,8 +778,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .footer-social-link:active .social-link-fb {
@@ -814,8 +786,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .social-link-youtube {
@@ -832,8 +802,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .footer-social-link:focus .social-link-youtube {
@@ -841,8 +809,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 .footer-social-link:active .social-link-youtube {
@@ -851,8 +817,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 10px;
-  padding: 10px;
 }
 
 /* catalog */
@@ -907,8 +871,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 4px;
-  padding: 6px 8px 9px 8px;
 }
 
 .breadcrumbs-link:focus .home-page {
@@ -916,8 +878,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 4px;
-  padding: 6px 8px 9px 8px;
 }
 
 .breadcrumbs-link:active .home-page {
@@ -926,8 +886,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 4px;
-  padding: 6px 8px 9px 8px;
 }
 
 .breadcrumbs-link-catalog {
@@ -949,8 +907,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 4px;
-  padding: 3px 8px 3px 8px;
 }
 
 .breadcrumbs-link-catalog:focus {
@@ -958,8 +914,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 4px;
-  padding: 3px 8px 3px 8px;
 }
 
 .breadcrumbs-link-catalog:active {
@@ -968,8 +922,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-width: 3px;
-  border-radius: 4px;
-  padding: 3px 8px 3px 8px;
 }
 
 .search-filters-form {
@@ -1366,8 +1318,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 2px;
-  border-radius: 4px;
-  padding: 16px 17px;
 }
 
 .catalog-views-link:focus .views-link-mode-tile,
@@ -1377,8 +1327,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 2px;
-  border-radius: 4px;
-  padding: 16px 17px;
 }
 
 .catalog-views-link:active .views-link-mode-tile,
@@ -1388,8 +1336,6 @@ body {
   border-style: solid;
   border-color: #000000;
   border-width: 2px;
-  border-radius: 4px;
-  padding: 16px 17px;
 }
 
 .found-hotels {
@@ -1574,7 +1520,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 4px;
 }
 
 .button-more-details:active {
@@ -1603,7 +1548,6 @@ body {
   border-style: solid;
   border-color: #756257;
   border-width: 1px;
-  border-radius: 4px;
 }
 
 .button-to-favorites:focus {
@@ -1611,7 +1555,6 @@ body {
   border-style: solid;
   border-color: #756257;
   border-width: 3px;
-  border-radius: 4px;
 }
 
 .button-to-favorites:active {
@@ -1619,7 +1562,6 @@ body {
   border-style: solid;
   border-color: #756257;
   border-width: 1px;
-  border-radius: 4px;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1962,7 +1904,6 @@ body {
   border-style: solid;
   border-color: #83B3D3;
   border-width: 3px;
-  border-radius: 0 0 20px 20px;
 }
 
 .button-all-favorites:active {
@@ -1986,10 +1927,10 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
 }
-/*
+
 .modal-container-close {
   display: none;
-} */
+}
 
 .modal {
   position: relative;
@@ -2036,7 +1977,6 @@ body {
   opacity: 0.4;
   border: none;
 }
-
 
 .modal-title {
   font-size: 30px;
@@ -2105,6 +2045,7 @@ body {
 }
 
 .field-modal {
+  display: flex;
   font-size: 18px;
   line-height: 40px;
   font-weight: 700;
@@ -2117,6 +2058,24 @@ body {
   padding-right: 19px;
   border-radius: 4px;
   border: none;
+}
+
+::-webkit-input-placeholder {
+  text-align:center;
+}
+
+.field-modal:hover {
+  background-color: #E5E5E5;
+}
+
+.field-modal:focus {
+  background-color: #E5E5E5;
+  outline: 3px solid #83B3D3;
+}
+
+.field-modal:active {
+  background-color: #FFFFFF;
+  outline: 2px solid #000000;
 }
 
 .selection-housing-form-date-arrival label,
@@ -2151,6 +2110,8 @@ body {
 }
 
 .button-calendar {
+  display: flex;
+  align-items:center;
   position: absolute;
   top: 10px;
   left: 530px;
@@ -2159,6 +2120,7 @@ body {
   background-color: transparent;
   margin-right: 19px;
   cursor: pointer;
+  border: none;
 }
 
 .calendar {
@@ -2167,13 +2129,34 @@ body {
 }
 
 .button-info {
+  display: flex;
+  align-self: center;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   background-color: #83B3D3;
-  align-self: center;
   margin-right: 18px;
   margin-left: 10px;
+  border: none;
+}
+
+.button-info:hover {
+  background-color: #68A2CA;
+}
+
+.info {
+  display: flex;
+  align-self: center;
+  padding-left: 5px;
+  fill: #FFFFFF;
+}
+
+.button-sign-plus,
+.button-sign-minus {
+  display: flex;
+  align-items:center;
+  outline: 3px solid transparent;
+  border-radius: 4px;
   border: none;
 }
 
@@ -2181,6 +2164,39 @@ body {
 .sign-plus {
   fill: #000000;
   opacity: 0.3;
+}
+
+.button-sign-minus:hover .sign-minus,
+.button-sign-plus:hover .sign-plus{
+  fill: #000000;
+  opacity: 1;
+}
+
+.button-sign-minus:focus .sign-minus,
+.button-sign-plus:focus .sign-plus {
+  fill: #000000;
+  opacity: 1;
+}
+
+.button-sign-minus:active,
+.button-sign-plus:active {
+  fill: #000000;
+  opacity: 0.3;
+}
+
+.button-sign-minus:hover,
+.button-sign-plus:hover {
+  outline: 3px solid transparent;
+}
+
+.button-sign-minus:focus,
+.button-sign-plus:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.button-sign-minus:active,
+.button-sign-plus:active {
+  outline: 3px solid transparent;
 }
 
 .selection-housing-form-adults .button-sign-minus {
@@ -2219,9 +2235,6 @@ body {
   align-self: center;
 }
 
-.info {
-  fill: #FFFFFF;
-}
 
 .button-find {
   font-size: 20px;
