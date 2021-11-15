@@ -66,6 +66,7 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
+  position: relative;
   padding-left: 59px;
   padding-right: 72px;
   padding-left: 40px;
@@ -229,8 +230,10 @@ body {
 }
 
 .main-header-logo {
-  padding-top: 0;
-  margin-bottom: -15px;
+  position: absolute;
+  left: 531px;
+  top: 0;
+  z-index: 2;
 }
 
 /*  main-container */
