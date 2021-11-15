@@ -1007,29 +1007,23 @@ body {
   left: 4px;
   width: 20px;
   height: 20px;
+  outline: 3px solid transparent;
   background-color: #FFFFFF;
-  border-color: #FFFFFF;
   border-radius: 4px;
 }
 
 .control-input[type="checkbox"]:hover + .control-mark {
-  border-style: solid;
-  border-color: transparent;
-  border-width: 3px;
+  outline: 3px solid transparent;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-input[type="checkbox"]:focus + .control-mark {
-  border-style: solid;
-  border-color: #83B3D3;
-  border-width: 3px;
+  outline: 3px solid #83B3D3;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-input[type="checkbox"]:active + .control-mark {
-  border-style: solid;
-  border-color: transparent;
-  border-width: 3px;
+  outline: 3px solid transparent;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
