@@ -20,6 +20,7 @@ html {
 
 body {
   display: flex;
+  width: 1020px;
   flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
@@ -48,6 +49,8 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /*  page-header */
@@ -65,6 +68,8 @@ body {
   justify-content: space-between;
   padding-left: 59px;
   padding-right: 72px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .navigation-list {
@@ -171,8 +176,8 @@ body {
 .notification-container-text {
   position: absolute;
   display: flex;
-  height: 20px;
-  width: 20px;
+  min-height: 20px;
+  min-width: 20px;
   top: -8px;
   left: -10px;
   color: #FFFFFF;
@@ -192,7 +197,7 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
-  width: 160px;
+  min-width: 160px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -310,8 +315,8 @@ body {
 .advantages-item {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 384px;
+  min-width: 400px;
+  min-height: 384px;
   box-sizing: border-box;
   padding-top: 98px;
   padding-bottom: 77px;
@@ -528,8 +533,8 @@ body {
 }
 
 .discription-mailing-index {
-  width: 720px;
-  height: 72px;
+  min-width: 720px;
+  min-height: 72px;
   font-size: 22px;
   line-height: 26px;
   width: 720px;
@@ -591,8 +596,8 @@ body {
 }
 
 .button-subscribe {
-  width: 200px;
-  height: 60px;
+  min-width: 200px;
+  min-height: 60px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -638,6 +643,8 @@ body {
   padding-right: 72px;
   padding-top: 40px;
   padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .footer-social {
@@ -825,6 +832,7 @@ body {
   min-height: 408px;
   color: #FFFFFF;
   background-color: cover;
+  background-color: #000000;
   background-image: url("/img/catalog/background-catalog.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -1023,8 +1031,8 @@ body {
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
-  width: 13px;
-  height: 10px;
+  min-width: 13px;
+  min-height: 10px;
   position: absolute;
   top: 7px;
   left: 4px;
@@ -1050,8 +1058,8 @@ body {
   position: absolute;
   top: 5px;
   left: 5px;
-  width: 10px;
-  height: 10px;
+  min-width: 10px;
+  min-height: 10px;
   background-color: #3F5E72;
   border-radius: 50%;
   content: "";
@@ -1063,8 +1071,8 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
-  width: 160px;
-  height: 48px;
+  min-width: 160px;
+  min-height: 48px;
   text-decoration: none;
   text-transform: uppercase;
   border: none;
@@ -1095,8 +1103,8 @@ body {
   line-height: 21px;
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0);
-  width: 160px;
-  height: 23px;
+  min-width: 160px;
+  min-height: 23px;
   margin-top: 20px;
   text-decoration: none;
   border: none;
@@ -1130,16 +1138,16 @@ body {
 
 .range-bar {
   position: absolute;
-  height: 4px;
   background-color: #FFFFFF;
   left: 0;
-  width: 216px;
+  min-width: 216px;
+  min-height: 4px;
 }
 
 .range-toggle {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   background: #FFFFFF;
   border: none;
   border-radius: 5px;
@@ -1170,8 +1178,8 @@ body {
 
 .range-wrapper-inputs {
   display: flex;
-  height: 48px;
-  width: 287px;
+  min-width: 287px;
+  min-height: 48px;
   margin-bottom: 32px;
 }
 
@@ -1603,8 +1611,8 @@ body {
   line-height: 21px;
   color: #333333;
   background-color: #F2F2F2;
-  width: 160px;
-  height: 37px;
+  min-width: 160px;
+  min-height: 37px;
   text-align: center;
   padding-top: 9px;
   text-transform: uppercase;
@@ -1613,8 +1621,8 @@ body {
 
 .button-load-more {
   position: relative;
-  width: 625px;
-  height: 55px;
+  min-width: 625px;
+  min-height: 55px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -1673,8 +1681,8 @@ body {
 .pagination-link {
   display: flex;
   box-sizing: border-box;
-  width: 55px;
-  height: 55px;
+  min-width: 55px;
+  min-height: 55px;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
@@ -1884,8 +1892,8 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #756257;
-  width: 400px;
-  height: 60px;
+  min-width: 400px;
+  min-height: 60px;
   text-decoration: none;
   text-transform: uppercase;
   border: none;
@@ -1950,8 +1958,8 @@ body {
   padding: 0;
   top: 54px;
   right: 70px;
-  width: 53px;
-  height: 53px;
+  min-width: 53px;
+  min-height: 53px;
   background-color: #F2F2F2;
   border: none;
   border-radius: 50%;
@@ -2115,8 +2123,8 @@ body {
   position: absolute;
   top: 10px;
   left: 530px;
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background-color: transparent;
   margin-right: 19px;
   cursor: pointer;
@@ -2131,8 +2139,8 @@ body {
 .button-info {
   display: flex;
   align-self: center;
-  width: 25px;
-  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
   border-radius: 50%;
   background-color: #83B3D3;
   margin-right: 18px;
@@ -2200,8 +2208,8 @@ body {
 }
 
 .selection-housing-form-adults .button-sign-minus {
-  width: 25px;
-  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
   background-color: transparent;
   position: absolute;
   left: 167px;
@@ -2209,8 +2217,8 @@ body {
 }
 
 .selection-housing-form-adults .button-sign-plus {
-  width: 25px;
-  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
   background-color: transparent;
   position: absolute;
   left: 245px;
@@ -2218,8 +2226,8 @@ body {
 }
 
 .selection-housing-form-children .button-sign-minus {
-  width: 25px;
-  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
   background-color: transparent;
   position: absolute;
   left: 115px;
@@ -2227,14 +2235,13 @@ body {
 }
 
 .selection-housing-form-children .button-sign-plus {
-  width: 25px;
-  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
   background-color: transparent;
   position: absolute;
   left: 187px;
   align-self: center;
 }
-
 
 .button-find {
   font-size: 20px;
@@ -2242,8 +2249,8 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
-  width: 575px;
-  height: 60px;
+  min-width: 575px;
+  min-height: 60px;
   text-decoration: none;
   text-transform: uppercase;
   border: none;
