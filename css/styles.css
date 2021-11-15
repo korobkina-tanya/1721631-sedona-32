@@ -1013,7 +1013,6 @@ body {
 }
 
 .control-input[type="checkbox"]:hover + .control-mark {
-  outline: 3px solid transparent;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1396,30 +1395,22 @@ body {
 .selected-hotel-image-link {
   grid-column: 1 / 2;
   grid-row: 1 / 4;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 3px;
+  outline: none;
 }
 
-.selected-hotel-image-link:hover {
+.selected-hotel-image-link:hover img {
   opacity: 0.6;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 3px;
+  outline: 3px solid transparent;
 }
 
-.selected-hotel-image-link:focus {
+.selected-hotel-image-link:focus img {
   opacity: 1;
-  border-style: solid;
-  border-color: #83B3D3;
-  border-width: 3px;
+  outline: 3px solid #83B3D3;
 }
 
-.selected-hotel-image-link:active {
+.selected-hotel-image-link:active img {
   opacity: 0.3;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 3px;
+  outline: 3px solid transparent;
 }
 
 .selected-hotel-title-link {
