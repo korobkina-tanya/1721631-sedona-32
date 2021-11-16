@@ -202,7 +202,6 @@ body {
   line-height: 21px;
   font-weight: 700;
   color: #FFFFFF;
-  background-color: #756257;
   min-width: 160px;
   text-align: center;
   text-decoration: none;
@@ -214,24 +213,24 @@ body {
   margin-left: 20px;
   border-radius: 4px;
   cursor: pointer;
+  background-color: #756257;
+  outline: 3px solid transparent;
 }
 
 .button-want:hover {
   background-color: #615048;
+  outline: 3px solid transparent;
 }
 
 .button-want:focus {
   background-color: #615048;
-  border-style: solid;
-  border-color: #83B3D3;
-  border-width: 3px;
-  border-radius: 10px;
+  outline: 3px solid #83B3D3;
 }
 
 .button-want:active {
   background-color: #615048;
+  outline: 3px solid transparent;
   color: rgba(255, 255, 255, 0.3);
-  border: none;
 }
 
 .main-header-logo {
@@ -265,7 +264,7 @@ body {
 .welcome {
   padding-top: 51px;
   padding-left: 371px;
-  
+
 }
 
 /* information-sedona*/
