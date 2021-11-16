@@ -360,7 +360,7 @@ body {
   padding: 0;
 }
 
-.advantages-discription-sequential-number {
+.advantages-description-sequential-number {
   width: 250px;
   font-size: 18px;
   line-height: 21px;
@@ -369,7 +369,7 @@ body {
   padding-top: 25px;
 }
 
-.advantages-discription {
+.advantages-description {
   width: 250px;
   font-size: 18px;
   line-height: 21px;
@@ -396,7 +396,7 @@ body {
   padding-top: 23px;
 }
 
-.advantages-discription-service {
+.advantages-description-service {
   order: 2;
   width: 250px;
   font-size: 18px;
@@ -437,7 +437,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-discription-service {
+.advantages-description-service {
   font-size: 18px;
   line-height: 21px;
 }
@@ -540,7 +540,7 @@ body {
   margin: 0 auto;
 }
 
-.discription-mailing-index {
+.description-mailing-index {
   min-width: 720px;
   min-height: 72px;
   font-size: 22px;
