@@ -1895,11 +1895,11 @@ body {
   color: rgba(255, 255, 255, 0.3);
   border: none;
 }
-/*
+
 .popover-close {
   display: none;
 }
-*/
+
 /* modal */
 
 .modal-container {
@@ -1911,10 +1911,11 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
 }
-
+/*
 .modal-container-close {
   display: none;
 }
+*/
 
 .modal {
   position: relative;
@@ -2109,6 +2110,7 @@ body {
 }
 
 .button-info {
+  position: relative;
   display: flex;
   align-self: center;
   min-width: 25px;
@@ -2118,6 +2120,29 @@ body {
   margin-right: 18px;
   margin-left: 10px;
   border: none;
+}
+
+.info-description {
+  position: absolute;
+  top: 25px;
+  left: -120px;;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #333333;
+  width: 256px;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: start;
+  border-radius: 10px;
+  padding: 15px 18px 18px 22px;
+}
+
+.black-triangle {
+  position: absolute;
+  fill: #333333;
+  top: 32px;
+  left: 4px;
 }
 
 .button-info:hover {
