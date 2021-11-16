@@ -1597,6 +1597,7 @@ body {
 }
 
 .button-load-more {
+  display: flex;
   position: relative;
   min-width: 625px;
   min-height: 55px;
@@ -1916,10 +1917,10 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
 }
-/*
+
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: relative;
