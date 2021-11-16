@@ -1916,10 +1916,10 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
 }
-
+/*
 .modal-container-close {
   display: none;
-}
+}*/
 
 .modal {
   position: relative;
@@ -1981,7 +1981,7 @@ body {
 .selection-housing-form {
   display: grid;
   grid-template-columns: 575px;
-  grid-template-rows: 79px 11px 79px 11px 50px 40px;
+  grid-template-rows: 79px 11px 79px 11px 50px 40px 60px;
 }
 
 .selection-housing-form-date-arrival {
@@ -2245,6 +2245,8 @@ body {
 }
 
 .button-find {
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
   font-size: 20px;
   line-height: 40px;
   font-weight: 700;
