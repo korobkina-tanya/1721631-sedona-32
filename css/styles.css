@@ -20,15 +20,21 @@ html {
 
 body {
   display: flex;
-  min-width: 1280px;
   flex-direction: column;
-  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   margin: 0;
+}
+
+.site-wrapper {
+  min-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .visually-hidden {
@@ -48,7 +54,6 @@ body {
 
 .page-container {
   width: 1200px;
-  margin: 0 auto;
 }
 
 /*  page-header */
@@ -592,7 +597,7 @@ body {
   outline: 2px solid #000000;
 }
 
-.newsletter-email:disabled .field {
+.newsletter-email .field-email-error {
   color: #000000;
   background-color: #FFFFFF;
   outline: 2px solid #FF5757;
@@ -1759,7 +1764,7 @@ body {
   position: absolute;
   fill: #FFFFFF;
   top: -9px;
-  left: 180px;
+  left: 190px;
 }
 
 .favorites-item {
@@ -1903,11 +1908,10 @@ body {
   color: rgba(255, 255, 255, 0.3);
   border: none;
 }
-/*
+
 .popover-close {
   display: none;
 }
-*/
 
 /* modal */
 
@@ -1924,7 +1928,6 @@ body {
 .modal-container-close {
   display: none;
 }
-
 
 .modal {
   position: relative;
@@ -2026,6 +2029,7 @@ body {
 .selection-housing-form-adults .field-modal,
 .selection-housing-form-children .field-modal {
   width: 133px;
+  text-align: center;
 }
 
 .selection-housing-form-adults {
@@ -2140,7 +2144,6 @@ body {
   color: #FFFFFF;
   background-color: #333333;
   width: 256px;
-  height: 100%;
   box-sizing: border-box;
   text-align: start;
   border-radius: 10px;
