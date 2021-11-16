@@ -1598,6 +1598,8 @@ body {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-load-more::before {
@@ -1622,6 +1624,7 @@ body {
 
 .hotel-show-controls {
   display: flex;
+  padding-top: 31px;
   padding-left: 72px;
   padding-right: 72px;
   justify-content: space-between;
