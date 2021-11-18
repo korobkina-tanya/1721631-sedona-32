@@ -124,6 +124,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .navigation-link:active {
@@ -164,6 +165,7 @@ body {
   border-style: solid;
   border-color: #83b3d3;
   border-radius: 10px;
+  outline: none;
 }
 
 .navigation-link:active .navigation-icon,
@@ -489,7 +491,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
-  border-radius: 10px;
+  outline: none;
 }
 
 .link-search:active {
@@ -675,6 +677,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .main-footer-logo:active .icon-footer-logo {
@@ -708,6 +711,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .phone-number-footer:active {
@@ -743,6 +747,7 @@ body {
   border-style: solid;
   border-color: #83b3d3;
   border-width: 3px;
+  outline: none;
 }
 
 .footer-social-link:active .social-link-twitter {
@@ -774,6 +779,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .footer-social-link:active .social-link-fb {
@@ -805,6 +811,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .footer-social-link:active .social-link-youtube {
@@ -903,6 +910,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .breadcrumbs-link:active .home-page {
@@ -940,6 +948,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .breadcrumbs-link-catalog:active {
@@ -1142,6 +1151,7 @@ body {
   border-style: solid;
   border-color: #83b3d3;
   border-radius: 4px;
+  outline: none;
 }
 
 .button-reset:active {
@@ -1290,7 +1300,7 @@ body {
   background-image: url("/img/catalog/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
-  border: 2px solid #e5e5e5;
+  outline: 2px solid #e5e5e5;
   appearance: none;
 }
 
@@ -1298,13 +1308,13 @@ body {
 .select-control:focus {
   color: #333333;
   background-color: #ffffff;
-  border: 2px solid #83b3d3;
+  outline: 2px solid #83b3d3;
 }
 
 .select-control:active {
   color: #333333;
   background-color: #ffffff;
-  border: 2px solid #e5e5e5;
+  outline: 2px solid #e5e5e5;
   opacity: 0.3;
 }
 
@@ -1349,6 +1359,7 @@ body {
   border-width: 2px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .catalog-views-link:active .views-link-mode-tile,
@@ -1529,6 +1540,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .like-more-details:active {
@@ -1564,6 +1576,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #756257;
+  outline: none;
 }
 
 .button-to-favorites:active {
@@ -1599,6 +1612,7 @@ body {
   border-style: solid;
   border-color: #756257;
   border-radius: 4px;
+  outline: none;
 }
 
 .button-in-favorites:active {
@@ -1708,6 +1722,7 @@ body {
   background-color: #68a2ca;
   border-style: solid;
   border-color: #756257;
+  outline: none;
 }
 
 .pagination-link:active {
@@ -1914,6 +1929,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .link-all-favorites:active {
@@ -1980,6 +1996,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #83b3d3;
+  outline: none;
 }
 
 .modal-close-button:active {
@@ -2287,6 +2304,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: #756257;
+  outline: none;
 }
 
 .button-find:active {
@@ -2294,4 +2312,3 @@ body {
   background-color: #68a2ca;
   border: none;
 }
-
