@@ -401,9 +401,25 @@ body {
   line-height: 21px;
 }
 
-.advantages-item img {
-  order: -1;
-  margin: 0 auto;
+.advantages-item-service-housing {
+  width: 75px;
+  background-image: url("/img/index/icon-housing.svg");
+  background-repeat: no-repeat;
+  background-position: top 89px center;
+}
+
+.advantages-item-service-food {
+  width: 74px;
+  background-image: url("/img/index/icon-food.svg");
+  background-repeat: no-repeat;
+  background-position: top 91px center;
+}
+
+.advantages-item-service-souvenirs {
+  width: 64px;
+  background-image: url("/img/index/icon-souvenirs.svg");
+  background-repeat: no-repeat;
+  background-position: top 85px center;
 }
 
 .advantages-item-large-hotel {
@@ -412,12 +428,6 @@ body {
 
 .advantages-item-large-mountains {
   grid-column: 1/3;
-}
-
-.advantages-item-service-housing,
-.advantages-item-service-souvenirs {
-  color: #000000;
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item-special-white {
