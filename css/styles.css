@@ -885,6 +885,7 @@ body {
 }
 
 .breadcrumbs-link-catalog {
+  margin: 0;
   padding: 3px 8px 3px 8px;
   font-size: 16px;
   line-height: 21px;
@@ -918,6 +919,12 @@ body {
   border-style: solid;
   border-color: transparent;
   opacity: 0.3;
+}
+
+.breadcrumbs-arrow {
+  width: 5px;
+  background-image: url("/img/catalog/breadcrumbs.svg");
+  background-repeat: no-repeat;
 }
 
 .search-filters-form {
@@ -1494,7 +1501,7 @@ body {
   border-color: #83b3d3;
 }
 
-.link-more-details:active {
+.like-more-details:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #615048;
   border: none;
