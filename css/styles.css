@@ -651,6 +651,7 @@ body {
 .footer-social {
   display: flex;
   align-items: center;
+  width: 240px;
 }
 
 .footer-social-list {
