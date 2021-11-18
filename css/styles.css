@@ -867,6 +867,29 @@ body {
   border-radius: 4px;
 }
 
+.breadcrumbs-link-home {
+  position: relative;
+  left: -2px;
+  width: 29px;
+  height: 21px;
+  margin-top: 5px;
+}
+
+.breadcrumbs-link-home:hover {
+  opacity: 0.3;
+}
+
+.breadcrumbs-link-home::after {
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  left: 8px;
+  background-image: url("../img/catalog/page-home.svg");
+  content: "";
+  width: 12px;
+  height: 12px;
+}
+
 .breadcrumbs-link:hover .home-page {
   fill: #ffffff;
   border-width: 3px;
