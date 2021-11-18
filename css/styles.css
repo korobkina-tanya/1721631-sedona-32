@@ -850,6 +850,12 @@ body {
   flex-wrap: wrap;
 }
 
+.breadcrumbs-item {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
 .home-page {
   margin-left: 2px;
   margin-right: 11px;
@@ -925,6 +931,7 @@ body {
   width: 5px;
   background-image: url("/img/catalog/breadcrumbs.svg");
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .search-filters-form {
