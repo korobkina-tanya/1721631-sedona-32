@@ -1542,6 +1542,9 @@ body {
 }
 
 .selected-hotel-specifications {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 4 / 5;
   grid-row: 3 / 4;
   min-width: 160px;
@@ -1554,6 +1557,7 @@ body {
   color: #333333;
   background-color: #f2f2f2;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .link-more-details:hover {
