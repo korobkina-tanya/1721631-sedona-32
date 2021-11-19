@@ -1385,7 +1385,7 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: 195px 175px 1fr 160px;
-  grid-template-rows: 31px 54px 37px;
+  grid-template-rows: 31px 54px auto;
   box-sizing: border-box;
 }
 
@@ -1479,8 +1479,9 @@ body {
 .button-group-hotel-selection {
   grid-column: 2 / 4;
   grid-row: 3 / 4;
-  display: grid;
-  grid-template-columns: repeat(4, 175px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .link-more-details {
@@ -1511,6 +1512,7 @@ body {
 .selected-hotel-reit {
   grid-column: 4 / 5;
   grid-row: 3 / 4;
+  align-self: start;
   min-width: 160px;
   min-height: 37px;
   padding-top: 9px;
