@@ -1419,32 +1419,32 @@ body {
 .selected-hotel-title-link {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
+  padding-left: 15px;
+  outline: 3px solid transparent;
+  border-radius: 10px;
   text-decoration: none;
 }
 
 .selected-hotel-title {
   margin: 0;
   padding: 0;
-  padding-left: 15px;
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
   color: #000000;
-  outline: 3px solid transparent;
-  border-radius: 10px;
 }
 
-.selected-hotel-title-link:hover .selected-hotel-title {
+.selected-hotel-title-link:hover {
   color: #756257;
   outline: 3px solid transparent;
 }
 
-.selected-hotel-title-link:focus .selected-hotel-title {
+.selected-hotel-title-link:focus {
   color: #756257;
   outline: 3px solid #83b3d3;
 }
 
-.selected-hotel-title-link:active .selected-hotel-title {
+.selected-hotel-title-link:active {
   color: rgba(117, 98, 87, 0.3);
   outline: 3px solid transparent;
 }
