@@ -1320,39 +1320,29 @@ body {
 .views-link-mode-list {
   padding: 17px 16px;
   fill: #000000;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #e5e5e5;
+  outline: 2px solid #e5e5e5;
   border-radius: 4px;
-  outline: none;
 }
 
 .catalog-views-link:hover .views-link-mode-tile,
 .catalog-views-link:hover .views-link-mode-slideshow,
 .catalog-views-link:hover .views-link-mode-list {
   fill: #000000;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #83b3d3;
+  outline: 2px solid #83b3d3;
 }
 
 .catalog-views-link:focus .views-link-mode-tile,
 .catalog-views-link:focus .views-link-mode-slideshow,
 .catalog-views-link:focus .views-link-mode-list {
   fill: #000000;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #83b3d3;
-  outline: none;
+  outline: 2px solid #83b3d3;
 }
 
 .catalog-views-link:active .views-link-mode-tile,
 .catalog-views-link:active .views-link-mode-slideshow,
 .catalog-views-link:active .views-link-mode-list {
   fill: #000000;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #000000;
+  outline: 2px solid #000000;
 }
 
 .found-hotels {
@@ -1408,7 +1398,7 @@ body {
 .selected-hotel-image-link {
   grid-column: 1 / 2;
   grid-row: 1 / 4;
-  outline: none;
+  outline: 3px solid transparent;
 }
 
 .selected-hotel-image-link:hover img {
@@ -1441,7 +1431,7 @@ body {
   font-weight: 700;
   color: #000000;
   outline: 3px solid transparent;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .selected-hotel-title-link:hover .selected-hotel-title {
