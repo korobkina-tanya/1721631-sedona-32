@@ -488,6 +488,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756257;
+  outline: 3px solid transparent;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -495,20 +496,18 @@ body {
 
 .link-search:hover {
   background-color: #615048;
+  outline: 3px solid transparent;
 }
 
 .link-search:focus {
   background-color: #615048;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #83b3d3;
-  outline: none;
+  outline: 3px solid #83b3d3;
 }
 
 .link-search:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #615048;
-  border: none;
+  outline: 3px solid transparent;
 }
 
 /* mailing-index */
