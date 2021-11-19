@@ -592,12 +592,6 @@ body {
   outline: 2px solid #000000;
 }
 
-.newsletter-email .field-email-error {
-  color: #000000;
-  background-color: #ffffff;
-  outline: 2px solid #ff5757;
-}
-
 .button-subscribe {
   min-width: 200px;
   min-height: 60px;
