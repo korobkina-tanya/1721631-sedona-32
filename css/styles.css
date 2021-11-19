@@ -100,6 +100,7 @@ body {
   border-style: solid;
   border-color: transparent;
   border-radius: 10px;
+  outline: none;
 }
 
 .navigation-link-current::before {
@@ -679,6 +680,7 @@ body {
   border-style: solid;
   border-color: transparent;
   border-radius: 10px;
+  outline: none;
 }
 
 .main-footer-logo:hover .icon-footer-logo {
@@ -713,6 +715,7 @@ body {
   border-style: solid;
   border-color: transparent;
   border-radius: 10px;
+  outline: none;
 }
 
 .phone-number-footer:hover {
@@ -740,6 +743,7 @@ body {
 
 .footer-social-link {
   box-sizing: border-box;
+  outline: none;
 }
 
 .social-link-twitter {
@@ -751,22 +755,21 @@ body {
   border-radius: 10px;
 }
 
-.footer-social-link:hover .social-link-twitter {
+.footer-social-link:hover svg {
   fill: #68a2ca;
   border-width: 3px;
   border-style: solid;
   border-color: transparent;
 }
 
-.footer-social-link:focus .social-link-twitter {
+.footer-social-link:focus svg {
   fill: #68a2ca;
   border-style: solid;
   border-color: #83b3d3;
   border-width: 3px;
-  outline: none;
 }
 
-.footer-social-link:active .social-link-twitter {
+.footer-social-link:active svg {
   fill: #68a2ca;
   border-width: 3px;
   border-style: solid;
@@ -783,29 +786,6 @@ body {
   border-radius: 10px;
 }
 
-.footer-social-link:hover .social-link-fb {
-  fill: #68a2ca;
-  border-width: 3px;
-  border-style: solid;
-  border-color: transparent;
-}
-
-.footer-social-link:focus .social-link-fb {
-  fill: #68a2ca;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #83b3d3;
-  outline: none;
-}
-
-.footer-social-link:active .social-link-fb {
-  fill: #68a2ca;
-  border-width: 3px;
-  border-style: solid;
-  border-color: transparent;
-  opacity: 0.3;
-}
-
 .social-link-youtube {
   padding: 10px;
   fill: #83b3d3;
@@ -813,29 +793,6 @@ body {
   border-style: solid;
   border-color: transparent;
   border-radius: 10px;
-}
-
-.footer-social-link:hover .social-link-youtube {
-  fill: #68a2ca;
-  border-width: 3px;
-  border-style: solid;
-  border-color: transparent;
-}
-
-.footer-social-link:focus .social-link-youtube {
-  fill: #68a2ca;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #83b3d3;
-  outline: none;
-}
-
-.footer-social-link:active .social-link-youtube {
-  fill: #68a2ca;
-  border-width: 3px;
-  border-style: solid;
-  border-color: transparent;
-  opacity: 0.3;
 }
 
 /* catalog */
@@ -956,6 +913,7 @@ body {
   border-style: solid;
   border-color: transparent;
   border-radius: 4px;
+  outline: none;
 }
 
 .breadcrumbs-link-catalog:hover {
@@ -1248,6 +1206,7 @@ body {
   border-width: 2px;
   border-style: solid;
   border-color: #ffffff;
+  outline: none;
 }
 
 .catalog-filter-label:hover {
@@ -1364,6 +1323,7 @@ body {
   border-style: solid;
   border-color: #e5e5e5;
   border-radius: 4px;
+  outline: none;
 }
 
 .catalog-views-link:hover .views-link-mode-tile,
