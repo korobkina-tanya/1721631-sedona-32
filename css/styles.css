@@ -1729,8 +1729,8 @@ body {
 
 .popover {
   position: absolute;
-  top: 44px;
-  left: -150px;
+  top: 42px;
+  left: -180px;
   z-index: 1;
   display: none;
   width: 400px;
@@ -1759,13 +1759,13 @@ body {
 .favorites-item {
   display: grid;
   grid-template-columns: 1fr 16px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .favorites-items-list {
   position: relative;
   margin: 0;
-  padding: 25px 25px 60px 25px;
+  padding: 15px 5px 60px 15px;
   list-style-type: none;
 }
 
@@ -1808,6 +1808,8 @@ body {
 }
 
 .favorites-item-button {
+  display: flex;
+  padding-top: 4px;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
   background-color: transparent;
@@ -1861,8 +1863,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: -2px;
-  left: -2px;
+  bottom: -7px;
+  left: 0;
   min-width: 400px;
   min-height: 60px;
   font-size: 16px;
@@ -1910,10 +1912,9 @@ body {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-/*
 .modal-container-close {
   display: none;
-}*/
+}
 
 .modal {
   position: relative;
