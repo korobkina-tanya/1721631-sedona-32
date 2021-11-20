@@ -1309,6 +1309,10 @@ body {
   box-sizing: border-box;
 }
 
+.catalog-views-link:focus {
+  outline: none;
+}
+
 .views-link-mode-tile,
 .views-link-mode-slideshow,
 .views-link-mode-list {
