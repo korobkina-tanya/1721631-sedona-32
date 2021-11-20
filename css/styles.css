@@ -60,7 +60,7 @@ body {
 
 .page-header {
   width: 1200px;
-  min-height: 65px;
+  height: 65px;
   margin: 0 auto;
   color: #000000;
   background-color: #ffffff;
@@ -137,7 +137,7 @@ body {
 }
 
 .navigation-user .navigation-link {
-  padding: 10px;
+  padding: 7px;
 }
 
 .navigation-user {
@@ -204,7 +204,7 @@ body {
   min-width: 160px;
   margin-top: 14px;
   margin-bottom: 14px;
-  margin-left: 20px;
+  margin-left: 0;
   padding-top: 9px;
   padding-bottom: 10px;
   font-size: 16px;
@@ -238,7 +238,7 @@ body {
 
 .main-header-logo {
   position: absolute;
-  left: 507px;
+  left: 505px;
   top: 0;
   z-index: 2;
 }
@@ -295,7 +295,7 @@ body {
   width: 720px;
   margin: 0;
   padding: 0;
-  padding-top: 23px;
+  padding-top: 30px;
   font-size: 22px;
   line-height: 36px;
 }
@@ -361,7 +361,7 @@ body {
 
 .advantage-number {
   text-transform: uppercase;
-  margin-bottom: 26px;
+  margin-bottom: 32px;
 }
 
 .advantage-text {
@@ -416,7 +416,7 @@ body {
   width: 720px;
   margin: 0;
   padding: 0;
-  padding-bottom: 15px;
+  padding-bottom: 28px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -427,7 +427,7 @@ body {
   width: 720px;
   margin: 0;
   padding: 0;
-  padding-bottom: 73px;
+  padding-bottom: 61px;
   font-size: 22px;
   line-height: 26px;
 }
@@ -497,7 +497,17 @@ body {
   min-width: 720px;
   min-height: 72px;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 28px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.description-mailing-catalog {
+  min-width: 720px;
+  min-height: 72px;
+  margin: 0 auto;
+  padding-top: 28px;
+  padding-bottom: 28px;
   font-size: 22px;
   line-height: 26px;
 }
@@ -553,8 +563,7 @@ body {
   min-width: 200px;
   min-height: 60px;
   margin: 0;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 17px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -593,10 +602,10 @@ body {
 .page-footer-container {
   display: flex;
   justify-content: space-between;
-  padding-left: 57px;
-  padding-right: 72px;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 21px;
+
 }
 
 .footer-social {
@@ -615,7 +624,7 @@ body {
 }
 
 .footer-social-item {
-  width: 40px;
+  width: 44px;
   flex-wrap: wrap;
 }
 
@@ -751,7 +760,6 @@ body {
 /* catalog */
 
 .inner-header {
-  min-height: 408px;
   padding-left: 71px;
   padding-right: 72px;
   padding-top: 35px;
@@ -766,7 +774,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 60px;
-  line-height: 78px;
+  line-height: 68px;
   color: #ffffff;
 }
 
@@ -776,8 +784,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-top: 5px;
-  padding-bottom: 45px;
+  padding-bottom: 38px;
   color: #ffffff;
   list-style-type: none;
   flex-wrap: wrap;
@@ -805,7 +812,8 @@ body {
   left: -2px;
   width: 29px;
   height: 21px;
-  margin-top: 5px;
+  padding: 0;
+  margin: 0;
   border: 3px solid transparent;
   outline: none;
   border-radius: 4px;
@@ -931,7 +939,7 @@ body {
 .search-filter-type-price legend {
   margin: 0;
   padding: 0;
-  padding-bottom: 34px;
+  padding-bottom: 30px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -1033,7 +1041,7 @@ body {
 .button-apply {
   min-width: 160px;
   min-height: 48px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 21px;
   font-weight: 700;
   text-decoration: none;
@@ -1066,7 +1074,7 @@ body {
   min-width: 160px;
   min-height: 23px;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 23px;
   text-decoration: none;
   color: #ffffff;
@@ -1103,7 +1111,7 @@ body {
 .range-bar {
   position: absolute;
   left: 0;
-  min-width: 216px;
+  min-width: 224px;
   min-height: 4px;
   background-color: #ffffff;
 }
@@ -1151,7 +1159,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 145px;
+  width: 140px;
   font-size: 18px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.3);
@@ -1211,7 +1219,7 @@ body {
   display: grid;
   grid-template-columns: 529px 287px 1fr;
   margin-top: 44px;
-  margin-bottom: 42px;
+  margin-bottom: 14px;
 }
 
 .services-selector-list {
@@ -1227,7 +1235,7 @@ body {
   padding-top: 12px;
   padding-left: 19px;
   padding-bottom: 13px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 23px;
   color: #333333;
   background-color: #ffffff;
@@ -1256,7 +1264,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
-  margin-left: auto;
+  margin-left: 80px;
   padding: 0;
   list-style: none;
 }
@@ -1303,11 +1311,11 @@ body {
 .found-hotels {
   display: flex;
   flex-grow: 1;
-  align-items: center;
+  align-items: flex-start;
   margin: 0;
   padding: 0;
   font-size: 30px;
-  line-height: 38px;
+  line-height: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
@@ -1346,7 +1354,7 @@ body {
 
 .filter-search-results-item {
   padding-top: 31px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   list-style: none;
 }
 
@@ -1374,7 +1382,7 @@ body {
 .selected-hotel-title-link {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
-  padding-left: 15px;
+  padding-left: 23px;
   outline: 3px solid transparent;
   border-radius: 10px;
   text-decoration: none;
@@ -1408,7 +1416,7 @@ body {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   margin: 0;
-  margin-left: 15px;
+  margin-left: 23px;
   padding: 0;
   font-size: 18px;
   line-height: 23px;
@@ -1420,6 +1428,7 @@ body {
   grid-row: 2 / 3;
   margin: 0;
   padding: 0;
+  padding-left: 3px;
 }
 
 .button-group-hotel-selection {
@@ -1436,9 +1445,9 @@ body {
   justify-content: center;
   width: 151px;
   height: 37px;
-  margin-left: 15px;
+  margin-left: 23px;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -1492,7 +1501,9 @@ body {
   width: 160px;
   height: 37px;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
+  letter-spacing: -2px;
+  word-spacing: 1px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -1530,7 +1541,9 @@ body {
   width: 160px;
   height: 37px;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
+  letter-spacing: -2px;
+  word-spacing: 1px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -1570,8 +1583,8 @@ body {
   margin: 0 auto;
   margin-top: 31px;
   margin-bottom: 30px;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 18px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
