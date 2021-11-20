@@ -1577,9 +1577,27 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
+  border-width: 3px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+
+.button-load-more:hover {
+  background-color: #68a2ca;
+}
+
+.button-load-more:focus {
+  background-color: #68a2ca;
+  border-style: solid;
+  border-color: #756257;
+  outline: none;
+}
+
+.button-load-more:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #68a2ca;
+  border: none;
 }
 
 .button-load-more::before {
