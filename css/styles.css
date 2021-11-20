@@ -300,149 +300,97 @@ body {
   line-height: 36px;
 }
 
-/* advantages */
+/* Advantages list */
 
 .advantages {
-  max-width: 1200px;
-  list-style: none;
-}
-
-.advantages-list {
   display: grid;
   grid-template-columns: repeat(3, 400px);
-  margin: 0;
-  padding: 0;
   list-style-type: none;
-}
-
-.advantages-item {
-  display: flex;
-  flex-direction: column;
-  min-width: 400px;
-  min-height: 384px;
-  padding-top: 98px;
-  padding-bottom: 77px;
-  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-item-large {
-  width: 800px;
-  margin: 0;
-  padding: 0;
+  grid-column: 1 / 4;
+  display: flex;
 }
 
-.advantages-item-special-blue {
-  color: #ffffff;
+/* Advantage */
+
+.advantage {
+  text-align: center;
+  padding: 98px 75px 77px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+  width: 400px;
+  min-height: 384px;
+  box-sizing: border-box;
+}
+
+.advantage-blue {
   background-color: #83b3d3;
+  color: #ffffff;
 }
 
-.advantages-item-special-pale-blue {
-  color: #000000;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-item-special-light-blue {
-  color: #000000;
+.advantage-blue-light {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-title {
-  width: 180px;
-  margin: 0 auto;
-  padding: 0;
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
+.advantage-blue-ultralight {
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-description-sequential-number {
-  width: 250px;
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 25px;
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.advantages-description {
-  width: 250px;
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 26px;
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.advantages-item-service {
-  justify-content: end;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 79px;
-}
-
-.advantages-title-service {
-  order: 1;
-  width: 200px;
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 23px;
-  font-size: 24px;
-  line-height: 28px;
+.advantage-title {
   font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
-.advantages-description-service {
-  order: 2;
-  width: 250px;
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 20px;
-  font-size: 18px;
-  line-height: 21px;
+.advantage-number {
+  text-transform: uppercase;
+  margin-bottom: 26px;
 }
 
-.advantages-item-service-housing {
-  width: 75px;
+.advantage-text {
+  margin: 0;
+}
+
+.advantage-image {
+  flex-grow: 1;
+  background-size: cover;
+}
+
+.advantage-image-city {
+  background-image: url("../img/index/photo-advantages-1.jpg");
+  background-repeat: no-repeat;
+}
+
+.advantage-image-bridge {
+  background-image: url("../img/index/photo-advantages-2.jpg");
+  background-repeat: no-repeat;
+}
+
+.advantages-service-housing {
   background-image: url("/img/index/icon-housing.svg");
   background-repeat: no-repeat;
   background-position: top 89px center;
 }
 
-.advantages-item-service-food {
-  width: 74px;
+.advantages-service-food {
   background-image: url("/img/index/icon-food.svg");
   background-repeat: no-repeat;
   background-position: top 91px center;
 }
 
-.advantages-item-service-souvenirs {
-  width: 64px;
+.advantages-service-souvenirs {
   background-image: url("/img/index/icon-souvenirs.svg");
   background-repeat: no-repeat;
   background-position: top 85px center;
-}
-
-.advantages-item-large-hotel {
-  grid-column: 2/4;
-}
-
-.advantages-item-large-mountains {
-  grid-column: 1/3;
-}
-
-.advantages-item-special-white {
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.photo-hotel {
-  width: 1200px;
-  color: #000000;
-  background-image: url("/img/index/photo-advantages-1.jpg");
-  background-size: 100% auto;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
 }
 
 /* travel-dates */
