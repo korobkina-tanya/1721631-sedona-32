@@ -605,7 +605,6 @@ body {
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 21px;
-
 }
 
 .footer-social {
@@ -1502,7 +1501,7 @@ body {
   height: 37px;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   word-spacing: 1px;
   font-weight: 700;
   text-decoration: none;
@@ -1542,7 +1541,7 @@ body {
   height: 37px;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   word-spacing: 1px;
   font-weight: 700;
   text-decoration: none;
@@ -1911,9 +1910,10 @@ body {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
+/*
 .modal-container-close {
   display: none;
-}
+}*/
 
 .modal {
   position: relative;
@@ -1977,6 +1977,7 @@ body {
   display: grid;
   grid-template-columns: 575px;
   grid-template-rows: 79px 11px 79px 11px 50px 40px 60px;
+  margin-top: 26px;
 }
 
 .selection-housing-form-date-arrival {
@@ -2035,8 +2036,8 @@ body {
   height: 50px;
   padding-left: 19px;
   padding-right: 19px;
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 18px;
   font-weight: 700;
   color: #000000;
   background-color: #f2f2f2;
@@ -2076,7 +2077,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  line-height: 40px;
+  line-height: 28px;
   color: #ff5757;
 }
 
@@ -2086,7 +2087,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  line-height: 40px;
+  line-height: 30px;
   color: #333333;
 }
 
@@ -2124,11 +2125,12 @@ body {
 
 .info-description {
   position: absolute;
-  top: 25px;
-  left: -120px;
+  top: 46px;
+  left: -118px;
   width: 256px;
+  min-height: 143px;
   padding: 15px 18px 18px 22px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   text-align: start;
   color: #ffffff;
@@ -2139,7 +2141,7 @@ body {
 
 .black-triangle {
   position: absolute;
-  top: 32px;
+  top: 38px;
   left: 4px;
   fill: #333333;
 }
