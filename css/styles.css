@@ -199,6 +199,10 @@ body {
   border-radius: 100%;
 }
 
+.button {
+  font-family: inherit;
+}
+
 .button-want {
   display: inline-block;
   min-width: 160px;
