@@ -70,7 +70,7 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding-left: 59px;
+  padding-left: 58px;
   padding-right: 72px;
 }
 
@@ -90,9 +90,11 @@ body {
 
 .navigation-link {
   position: relative;
-  padding: 6px 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 14px;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 24px;
   font-weight: 700;
   text-decoration: none;
   color: inherit;
@@ -242,7 +244,7 @@ body {
 
 .main-header-logo {
   position: absolute;
-  left: 505px;
+  left: 530px;
   top: 0;
   z-index: 2;
 }
@@ -351,7 +353,7 @@ body {
   width: 250px;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 30px;
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 25px;
@@ -360,7 +362,7 @@ body {
 .advantages-service-housing .advantage-title,
 .advantages-service-food .advantage-title,
 .advantages-service-souvenirs .advantage-title {
-  margin-top: 86px;
+  margin-top: 84px;
 }
 
 .advantage-number {
@@ -536,6 +538,7 @@ body {
   height: 60px;
   padding-left: 22px;
   padding-right: 19px;
+  font-family: inherit;
   font-size: 18px;
   line-height: 26px;
   color: rgba(255, 255, 255, 0.6);
@@ -567,7 +570,7 @@ body {
   min-width: 200px;
   min-height: 60px;
   margin: 0;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -1044,7 +1047,7 @@ body {
 .button-apply {
   min-width: 160px;
   min-height: 48px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 21px;
   font-weight: 700;
   text-decoration: none;
@@ -1077,7 +1080,7 @@ body {
   min-width: 160px;
   min-height: 23px;
   margin-top: 20px;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 23px;
   text-decoration: none;
   color: #ffffff;
@@ -1235,10 +1238,11 @@ body {
 
 .select-control {
   width: 100%;
-  padding-top: 12px;
-  padding-left: 19px;
+  padding-top: 13px;
+  padding-left: 17px;
   padding-bottom: 13px;
-  font-size: 16px;
+  font-family: inherit;
+  font-size: 18px;
   line-height: 23px;
   color: #333333;
   background-color: #ffffff;
@@ -1586,8 +1590,8 @@ body {
   margin: 0 auto;
   margin-top: 31px;
   margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 20px;
+  line-height: 26px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
