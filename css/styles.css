@@ -1225,7 +1225,7 @@ body {
   display: grid;
   grid-template-columns: 529px 287px 1fr;
   margin-top: 44px;
-  margin-bottom: 14px;
+  margin-bottom: 36px;
 }
 
 .services-selector-list {
@@ -1276,13 +1276,12 @@ body {
   list-style: none;
 }
 
-.catalog-views-link {
+.catalog-views li:not(:last-child) {
   margin-right: 8px;
-  box-sizing: border-box;
 }
 
-.catalog-views-link:focus {
-  outline: none;
+.catalog-views-link {
+  box-sizing: border-box;
 }
 
 .views-link-mode-tile,
@@ -1313,6 +1312,11 @@ body {
 .catalog-views-link:active .views-link-mode-list {
   fill: #000000;
   outline: 2px solid #000000;
+}
+
+.views-link-mode-list-active {
+  outline: 2px solid #000000;
+  border-radius: 4px;
 }
 
 .found-hotels {
@@ -1346,7 +1350,7 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: 195px 175px 1fr 160px;
-  grid-template-rows: 31px 54px auto;
+  grid-template-rows: auto 54px auto;
   box-sizing: border-box;
 }
 
@@ -1390,9 +1394,12 @@ body {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
   padding-left: 23px;
-  outline: 3px solid transparent;
   border-radius: 10px;
   text-decoration: none;
+  justify-self: start;
+  position: relative;
+  color: #000000;
+  outline: none;
 }
 
 .selected-hotel-title {
@@ -1401,22 +1408,35 @@ body {
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
-  color: #000000;
+  color: inherit;
 }
 
 .selected-hotel-title-link:hover {
   color: #756257;
-  outline: 3px solid transparent;
 }
 
 .selected-hotel-title-link:focus {
   color: #756257;
-  outline: 3px solid #83b3d3;
+}
+
+.selected-hotel-title-link:focus::after {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 8px;
+  width: 100%;
+  min-height: 24px;
+  padding: 9px 1px;
+  border-radius: 9px;
+  border: 3px solid #83b3d3;
 }
 
 .selected-hotel-title-link:active {
   color: rgba(117, 98, 87, 0.3);
-  outline: 3px solid transparent;
+}
+
+.selected-hotel-title-link:active::after {
+  display: none;
 }
 
 .selected-hotel-class {
@@ -1508,9 +1528,7 @@ body {
   width: 160px;
   height: 37px;
   font-size: 16px;
-  line-height: 20px;
-  letter-spacing: -1px;
-  word-spacing: 1px;
+  line-height: 21px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -1548,9 +1566,7 @@ body {
   width: 160px;
   height: 37px;
   font-size: 16px;
-  line-height: 20px;
-  letter-spacing: -1px;
-  word-spacing: 1px;
+  line-height: 21px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
