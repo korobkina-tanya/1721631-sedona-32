@@ -962,7 +962,7 @@ body {
 
 .search-buttons {
   grid-column: 4/5;
-  padding-top: 60px;
+  padding-top: 61px;
   padding-left: 81px;
 }
 
@@ -970,12 +970,17 @@ body {
 .search-filter-type-price legend {
   margin: 0;
   padding: 0;
-  padding-bottom: 34px;
+  padding-bottom: 32px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: #ffffff;
 }
+
+.search-filter-type-price legend {
+  padding-bottom: 36px;
+}
+
 
 /* Group */
 .catalog-filter-group {
@@ -1181,16 +1186,16 @@ body {
 
 .range-wrapper-inputs {
   display: flex;
-  min-width: 286px;
+  min-width: 284px;
   min-height: 48px;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .catalog-filter-label {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 139px;
+  width: 140px;
   font-size: 18px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.3);
@@ -1250,7 +1255,7 @@ body {
   display: grid;
   grid-template-columns: 529px 287px 1fr;
   margin-top: 44px;
-  margin-bottom: 36px;
+  margin-bottom: 39px;
 }
 
 .services-selector-list {
@@ -1307,12 +1312,18 @@ body {
 
 .catalog-views-link {
   box-sizing: border-box;
+  outline: none;
+}
+
+.views-link-mode-list {
+  display: block;
 }
 
 .views-link-mode-tile,
 .views-link-mode-slideshow,
 .views-link-mode-list {
-  padding: 17px 16px;
+  display: block;
+  padding: 16px 16px;
   fill: #000000;
   outline: 2px solid #e5e5e5;
   border-radius: 4px;
@@ -1374,7 +1385,7 @@ body {
 .selected-hotel {
   position: relative;
   display: grid;
-  grid-template-columns: 195px 175px 1fr 160px;
+  grid-template-columns: 194px 175px 1fr 160px;
   grid-template-rows: auto 54px auto;
   box-sizing: border-box;
 }
@@ -1488,7 +1499,7 @@ body {
   grid-row: 3 / 4;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .link-more-details {
@@ -1515,6 +1526,7 @@ body {
   grid-column: 4 / 5;
   grid-row: 1 / 2;
   margin: 0 auto;
+  padding-top: 3px;
 }
 
 .selected-hotel-reit {
@@ -1629,7 +1641,7 @@ body {
   min-width: 625px;
   min-height: 55px;
   margin: 0 auto;
-  margin-top: 31px;
+  margin-top: 33px;
   margin-bottom: 30px;
   font-size: 20px;
   line-height: 26px;
