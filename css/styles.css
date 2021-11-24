@@ -1350,9 +1350,8 @@ body {
   outline: 2px solid #000000;
 }
 
-.views-link-mode-list-active {
-  outline: 2px solid #000000;
-  border-radius: 4px;
+.views-link-mode-list-active .views-link-mode-list {
+  outline-color: #000000;
 }
 
 .found-hotels {
