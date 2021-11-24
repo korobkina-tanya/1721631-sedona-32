@@ -1041,7 +1041,7 @@ body {
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
   position: absolute;
-  top: 3px;
+  top: 5px;
   left: 4px;
   content: "";
   min-width: 13px;
