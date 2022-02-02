@@ -267,8 +267,8 @@ body {
 .welcome-sedona {
   min-height: 485px;
   background:
-    url("/img/index/background-index-bottom.svg") bottom/auto no-repeat,
-    url("/img/index/background-index.jpg") center/cover no-repeat;
+    url("../img/index/background-index-bottom.svg") bottom/auto no-repeat,
+    url("../img/index/background-index.jpg") center/cover no-repeat;
 }
 
 .welcome {
@@ -391,19 +391,19 @@ body {
 }
 
 .advantages-service-housing {
-  background-image: url("/img/index/icon-housing.svg");
+  background-image: url("../img/index/icon-housing.svg");
   background-repeat: no-repeat;
   background-position: top 89px center;
 }
 
 .advantages-service-food {
-  background-image: url("/img/index/icon-food.svg");
+  background-image: url("../img/index/icon-food.svg");
   background-repeat: no-repeat;
   background-position: top 91px center;
 }
 
 .advantages-service-souvenirs {
-  background-image: url("/img/index/icon-souvenirs.svg");
+  background-image: url("../img/index/icon-souvenirs.svg");
   background-repeat: no-repeat;
   background-position: top 85px center;
 }
@@ -482,7 +482,7 @@ body {
   padding-top: 94px;
   padding-bottom: 93px;
   color: #ffffff;
-  background-image: url("/img/index/background-index-newsletter.jpg");
+  background-image: url("../img/index/background-index-newsletter.jpg");
   background-size: 100% auto;
   background-color: #000000;
   background-repeat: no-repeat;
@@ -770,7 +770,7 @@ body {
   padding-right: 72px;
   padding-top: 35px;
   color: #ffffff;
-  background-image: url("/img/catalog/background-catalog.jpg");
+  background-image: url("../img/catalog/background-catalog.jpg");
   background-size: cover;
   background-color: #000000;
   background-repeat: no-repeat;
@@ -933,7 +933,7 @@ body {
   left: -7px;
   top: -2px;
   width: 5px;
-  background-image: url("/img/catalog/breadcrumbs.svg");
+  background-image: url("../img/catalog/breadcrumbs.svg");
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.3;
@@ -1046,7 +1046,7 @@ body {
   content: "";
   min-width: 13px;
   min-height: 10px;
-  background-image: url("/img/catalog/check-mark.svg");
+  background-image: url("../img/catalog/check-mark.svg");
   background-repeat: no-repeat;
 }
 
@@ -1276,7 +1276,7 @@ body {
   line-height: 23px;
   color: #333333;
   background-color: #ffffff;
-  background-image: url("/img/catalog/select-arrow.svg");
+  background-image: url("../img/catalog/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   outline: 2px solid #e5e5e5;
@@ -1997,7 +1997,7 @@ body {
   min-height: 53px;
   padding: 0;
   background-position: center;
-  background-image: url("/img/index/popup/close.svg");
+  background-image: url("../img/index/popup/close.svg");
   background-color: #f2f2f2;
   background-repeat: no-repeat;
   border: none;
